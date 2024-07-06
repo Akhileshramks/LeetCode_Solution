@@ -65,4 +65,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1046-max-consecutive-ones-iii) |
+## Database
+|  |
+| ------- |
+| [1179-game-play-analysis-i](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1179-game-play-analysis-i) |
 <!---LeetCode Topics End-->
