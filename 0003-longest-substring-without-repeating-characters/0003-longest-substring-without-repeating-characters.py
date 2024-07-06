@@ -12,7 +12,7 @@ class Solution(object):
         while(r<n):
             m = d[ord(s[r])]
             if(m!=-1):
-                l = max(l,m+1)
+                l = max(m+1,l)
             d[ord(s[r])] = r
             maxi = max(maxi,r-l+1)
             r+=1
