@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0011-container-with-most-water) |
 | [0402-remove-k-digits](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0402-remove-k-digits) |
 | [0890-lemonade-change](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0890-lemonade-change) |
 ## Monotonic Stack
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0011-container-with-most-water) |
 | [0042-trapping-rain-water](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0075-sort-colors) |
 | [0152-maximum-product-subarray](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0152-maximum-product-subarray) |
@@ -77,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0011-container-with-most-water) |
 | [0042-trapping-rain-water](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0075-sort-colors) |
 ## Sorting
