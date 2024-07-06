@@ -1,31 +1,23 @@
 class Solution {
 public:
     int trap(vector<int>& height) {
-        int n = height.size();
-        int low = 0;
-        int high = n-1;
+        //Using Monotonic Stack to find the previous grater or next greater element and find
+        // the height difference between the min(prevGreater,nextGreater) and the height(i)
+        int popped;
+        stack<int> st;
         int sum = 0;
-        int maxi1 = 0;
-        int maxi2 = 0;
-        while(low<=high){
-            if(height[low]<=height[high]){
-                if(height[low]>maxi1){
-                    maxi1 = height[low];
+        int n = height.size();
+        int mini = INT_MAX;
+        for(int i=0;i<n;i++){
+            while(!st.empty() && height[i]>height[st.top()]){
+                popped = st.top();
+                st.pop();
+                if(!st.empty()){
+                    mini = min(height[st.top()],height[i]) - height[popped];
+                    sum +=(mini*(i-st.top()-1));
                 }
-                else{
-                    sum += maxi1-height[low];
-                }
-                low++;
             }
-            else{
-                if(height[high]>maxi2){
-                    maxi2 = height[high];
-                }
-                else{
-                    sum += maxi2-height[high];
-                }
-                high--;
-            }
+            st.push(i);
         }
         return sum;
     }
