@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0002-add-two-numbers) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1370-count-number-of-nice-subarrays) |
 | [1642-water-bottles](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -134,12 +135,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0021-merge-two-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0141-linked-list-cycle) |
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0021-merge-two-sorted-lists) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Design
