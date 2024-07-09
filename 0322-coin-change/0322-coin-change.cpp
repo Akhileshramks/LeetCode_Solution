@@ -10,10 +10,6 @@ public:
                     dp[j] = min(dp[j],1+dp[j-coin]);
                 }
         }
-            for(int j=0;j<amount+1;j++){
-                cout<<dp[j]<<" ";
-            }
-        int p = dp[amount]>=1e6 ? -1 : dp[amount];
-        return p;
+        return dp[amount]>=1e6 ? -1 : dp[amount];
     }
 };
