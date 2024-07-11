@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0424-longest-repeating-character-replacement) |
 | [0560-subarray-sum-equals-k](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0966-binary-subarrays-with-sum) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1370-count-number-of-nice-subarrays) |
 ## Sliding Window
 |  |
@@ -127,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0075-sort-colors) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -176,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0199-binary-tree-right-side-view) |
 | [0322-coin-change](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0322-coin-change) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Tree
 |  |
 | ------- |
@@ -183,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0199-binary-tree-right-side-view) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -190,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0199-binary-tree-right-side-view) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -197,4 +202,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0199-binary-tree-right-side-view) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 <!---LeetCode Topics End-->
