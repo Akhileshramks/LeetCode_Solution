@@ -12,13 +12,20 @@
 class Solution {
 public:
     void flatten(TreeNode* root) {
-        if(root==NULL) return ;
         TreeNode* main = root;
-        TreeNode* temp = root->right;
-        root->right = root->left;
-        root->left = NULL;
-        while(root->right) root = root->right;
-        root->right = temp;
-        flatten(main->right);
+        while(main){
+            root = main;
+            if(root==NULL){
+                main = main->right;
+                continue;
+            }
+            TreeNode* temp = root->right;
+            root->right = root->left;
+            root->left = NULL;
+            while(root->right) root = root->right;
+            root->right = temp;
+            main = main->right;
+        }
+        
     }
 };
