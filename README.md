@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0424-longest-repeating-character-replacement) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1720-crawler-log-folder) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1818-maximum-score-from-removing-substrings) |
 ## Stack
 |  |
 | ------- |
@@ -28,12 +29,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0937-online-stock-span](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0937-online-stock-span) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1720-crawler-log-folder) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1818-maximum-score-from-removing-substrings) |
 ## Greedy
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0011-container-with-most-water) |
 | [0402-remove-k-digits](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0402-remove-k-digits) |
 | [0890-lemonade-change](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0890-lemonade-change) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1818-maximum-score-from-removing-substrings) |
 ## Monotonic Stack
 |  |
 | ------- |
