@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0002-add-two-numbers](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0002-add-two-numbers) |
 | [0029-divide-two-integers](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0029-divide-two-integers) |
+| [0070-climbing-stairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0070-climbing-stairs) |
 | [0204-count-primes](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0231-power-of-two) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1370-count-number-of-nice-subarrays) |
@@ -166,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0042-trapping-rain-water) |
+| [0070-climbing-stairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0072-edit-distance) |
 | [0152-maximum-product-subarray](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0152-maximum-product-subarray) |
 | [0322-coin-change](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0322-coin-change) |
@@ -299,4 +301,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0307-range-sum-query-mutable) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
