@@ -11,36 +11,43 @@
  */
 class Solution {
 public:
-    bool dfs(TreeNode* root,int target,string& dest){
-        if(root == nullptr) return false;
+    // Helper function to find the path from the root to the target node
+    bool dfs(TreeNode* root, int target, string& path) {
+        if (root == nullptr) return false;
 
-        if(root->val == target) return true;
+        if (root->val == target) return true;
 
-        dest.push_back('L');
-        if(dfs(root->left,target,dest)) return true;
-        dest.pop_back();
+        path.push_back('L');
+        if (dfs(root->left, target, path)) return true;
+        path.pop_back();
 
-        dest.push_back('R');
-        if(dfs(root->right,target,dest)) return true;
-        dest.pop_back();
+        path.push_back('R');
+        if (dfs(root->right, target, path)) return true;
+        path.pop_back();
 
         return false;
     }
+
     string getDirections(TreeNode* root, int startValue, int destValue) {
-        string path_start,path_dest;
-        dfs(root,startValue,path_start);
-        dfs(root,destValue,path_dest);
+        string path_start, path_dest;
+        
+        // Find path from root to startValue
+        dfs(root, startValue, path_start);
+        
+        // Find path from root to destValue
+        dfs(root, destValue, path_dest);
 
         int m = path_start.size();
         int n = path_dest.size();
 
-        int mini = min(m,n);
-        int i;
-        for(i = 0;i<mini;i++){
-            if(path_start[i] != path_dest[i]) break;
+        // Find the first point where paths diverge
+        int i = 0;
+        while (i < m && i < n && path_start[i] == path_dest[i]) {
+            i++;
         }
 
-        string ans = string(m-i,'U') + string(path_dest.begin()+i,path_dest.end());
-        return ans;
+        // Create the result path: 'U' for steps up to the LCA, then the remaining path to the destination
+        string result = string(m - i, 'U') + path_dest.substr(i);
+        return result;
     }
 };
