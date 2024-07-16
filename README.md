@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0011-container-with-most-water) |
+| [0055-jump-game](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0055-jump-game) |
 | [0402-remove-k-digits](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0402-remove-k-digits) |
 | [0890-lemonade-change](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0890-lemonade-change) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1818-maximum-score-from-removing-substrings) |
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0031-next-permutation](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0033-search-in-rotated-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0042-trapping-rain-water) |
+| [0055-jump-game](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0055-jump-game) |
 | [0075-sort-colors](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0081-search-in-rotated-sorted-array-ii) |
@@ -167,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0042-trapping-rain-water) |
+| [0055-jump-game](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0072-edit-distance) |
 | [0152-maximum-product-subarray](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0152-maximum-product-subarray) |
