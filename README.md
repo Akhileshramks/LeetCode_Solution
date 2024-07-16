@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0966-binary-subarrays-with-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0966-binary-subarrays-with-sum) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1370-count-number-of-nice-subarrays) |
+| [1798-max-number-of-k-sum-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Sliding Window
 |  |
@@ -125,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1046-max-consecutive-ones-iii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1370-count-number-of-nice-subarrays) |
 | [1720-crawler-log-folder](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1720-crawler-log-folder) |
+| [1798-max-number-of-k-sum-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1803-average-waiting-time](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -161,12 +163,14 @@ A collection of LeetCode questions to ace the coding interview!
 | [0141-linked-list-cycle](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0142-linked-list-cycle-ii) |
 | [0234-palindrome-linked-list](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0234-palindrome-linked-list) |
+| [1798-max-number-of-k-sum-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1798-max-number-of-k-sum-pairs) |
 ## Sorting
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0075-sort-colors) |
 | [0726-number-of-atoms](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0726-number-of-atoms) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1798-max-number-of-k-sum-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2846-robot-collisions](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2846-robot-collisions) |
 ## Dynamic Programming
 |  |
