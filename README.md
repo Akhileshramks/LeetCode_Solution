@@ -125,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0307-range-sum-query-mutable](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0307-range-sum-query-mutable) |
 | [0322-coin-change](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0416-partition-equal-subset-sum) |
+| [0540-single-element-in-a-sorted-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0560-subarray-sum-equals-k) |
 | [0735-asteroid-collision](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0739-daily-temperatures) |
@@ -149,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0162-find-peak-element) |
+| [0540-single-element-in-a-sorted-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0540-single-element-in-a-sorted-array) |
 | [0907-koko-eating-bananas](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1046-max-consecutive-ones-iii) |
 ## Prefix Sum
