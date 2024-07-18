@@ -269,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0543-diameter-of-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0543-diameter-of-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1207-delete-nodes-and-return-forest) |
+| [1653-number-of-good-leaf-nodes-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Depth-First Search
@@ -285,6 +286,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0543-diameter-of-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0543-diameter-of-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1207-delete-nodes-and-return-forest) |
+| [1653-number-of-good-leaf-nodes-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Binary Tree
 |  |
@@ -301,6 +303,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0543-diameter-of-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0543-diameter-of-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1207-delete-nodes-and-return-forest) |
+| [1653-number-of-good-leaf-nodes-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Bit Manipulation
