@@ -1,21 +1,21 @@
-from typing import List
-
 class Solution:
     def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int:
-        # Initialize distances array with "infinity"
-        dp = [[float('inf')] * n for _ in range(k + 2)]
-        dp[0][src] = 0
+        adj = collections.defaultdict(list)
+        for start, end, price in flights:
+            adj[start].append((price, end))
         
-        for i in range(1, k + 2):
-            for u, v, w in flights:
-                dp[i][v] = min(dp[i][v], dp[i - 1][u] + w)
-        
-        # Find the minimum cost to reach dst within k stops (k+1 edges)
-        ans = min(dp[i][dst] for i in range(k + 2))
-        
-        return -1 if ans == float('inf') else ans
+        q = collections.deque([(0, 0, src)])
+        all_prices = [math.inf] * n
 
-# Example usage:
-# solution = Solution()
-# result = solution.findCheapestPrice(n, flights, src, dst, k)
-# print(result)
+        while q:
+            price, stops, cur = q.popleft()
+            
+            if stops >= k + 1:
+                continue
+
+            for nbr_price, nbr in adj[cur]:
+                if nbr_price + price < all_prices[nbr]:
+                    q.append((nbr_price + price, stops + 1, nbr))
+                    all_prices[nbr] = price + nbr_price
+
+        return all_prices[dst] if all_prices[dst] < math.inf else -1
