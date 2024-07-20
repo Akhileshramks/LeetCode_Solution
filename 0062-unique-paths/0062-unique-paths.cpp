@@ -11,6 +11,18 @@ public:
     }
     int uniquePaths(int m, int n) {
         vector<vector<int>> dp(m,vector<int>(n,-1));
-        return path(m-1,n-1,m,n,dp);
+        
+        for(int m1=0;m1<m;m1++){
+            for(int n1=0;n1<n;n1++){
+                if(m1 ==0 && n1 ==0 ){
+                    dp[0][0] = 1;
+                    continue;
+                } 
+                int up =  (m1>0) ? dp[m1-1][n1]: 0;
+                int left =  (n1>0) ? dp[m1][n1-1] : 0;
+                dp[m1][n1]=up+left;
+            }
+        }
+        return dp[m-1][n-1];
     }
 };
