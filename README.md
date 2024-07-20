@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0078-subsets](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0084-largest-rectangle-in-histogram) |
+| [0120-triangle](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0120-triangle) |
 | [0136-single-number](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0136-single-number) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0152-maximum-product-subarray) |
@@ -216,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0064-minimum-path-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0072-edit-distance) |
+| [0120-triangle](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0120-triangle) |
 | [0152-maximum-product-subarray](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0213-house-robber-ii) |
