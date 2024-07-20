@@ -115,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0042-trapping-rain-water](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0042-trapping-rain-water) |
 | [0055-jump-game](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0055-jump-game) |
 | [0063-unique-paths-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0064-minimum-path-sum) |
 | [0075-sort-colors](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0081-search-in-rotated-sorted-array-ii) |
@@ -212,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0055-jump-game](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0072-edit-distance) |
 | [0152-maximum-product-subarray](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0152-maximum-product-subarray) |
@@ -380,6 +382,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0063-unique-paths-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0064-minimum-path-sum) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1496-lucky-numbers-in-a-matrix) |
 ## Quickselect
 |  |
