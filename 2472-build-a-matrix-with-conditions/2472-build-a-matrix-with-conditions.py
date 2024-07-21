@@ -34,10 +34,13 @@ class Solution:
         if(len(colIndex)!=k):
             return []
         matrix = [[0 for i in range(k)] for j in range(k)]
+        rIndex = {}
+        cIndex = {}
         for rind in range(k):
-            for cind in range(k):
-                if(rowIndex[rind] == colIndex[cind]):
-                    matrix[rind][cind] = rowIndex[rind]+1
+            rIndex[rowIndex[rind]] = rind
+            cIndex[colIndex[rind]] = rind
+        for ele in range(k):
+            matrix[rIndex[ele]][cIndex[ele]] = ele+1
         return matrix
         
         
