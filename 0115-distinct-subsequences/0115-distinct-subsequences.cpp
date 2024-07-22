@@ -22,17 +22,14 @@ public:
         vector<int> prev(m+1,0);
         prev[0] = 1;
         for(int i=1;i<=n;i++){
-            vector<int> curr(m+1,0);
-            curr[0] = 1;
-            for(int j=1;j<=m;j++){
+            for(int j=m;j>=1;j--){
                 int take = 0;
                 int nottake = prev[j];
                 if(s[i-1]==t[j-1]){
                     take = prev[j-1];
                 }
-                curr[j] = (take+nottake)%mod;
+                prev[j] = (take+nottake)%mod;
             }
-            prev = curr;
         }
         return prev[m];
     }
