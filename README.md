@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0044-wildcard-matching](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0115-distinct-subsequences) |
 | [0402-remove-k-digits](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0402-remove-k-digits) |
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0011-container-with-most-water) |
+| [0044-wildcard-matching](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0044-wildcard-matching) |
 | [0055-jump-game](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0055-jump-game) |
 | [0402-remove-k-digits](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0402-remove-k-digits) |
 | [0890-lemonade-change](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0890-lemonade-change) |
@@ -227,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0042-trapping-rain-water) |
+| [0044-wildcard-matching](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0044-wildcard-matching) |
 | [0055-jump-game](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0063-unique-paths-ii) |
@@ -284,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0002-add-two-numbers](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0021-merge-two-sorted-lists) |
+| [0044-wildcard-matching](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0044-wildcard-matching) |
 | [0231-power-of-two](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0234-palindrome-linked-list) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1951-find-the-winner-of-the-circular-game) |
