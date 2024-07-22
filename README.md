@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0055-jump-game](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0402-remove-k-digits](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0402-remove-k-digits) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0890-lemonade-change](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0890-lemonade-change) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1818-maximum-score-from-removing-substrings) |
@@ -154,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0518-coin-change-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0518-coin-change-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0560-subarray-sum-equals-k) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0735-asteroid-collision](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0747-min-cost-climbing-stairs) |
@@ -256,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0516-longest-palindromic-subsequence](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0518-coin-change-ii) |
 | [0583-delete-operation-for-two-strings](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0583-delete-operation-for-two-strings) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0747-min-cost-climbing-stairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0967-minimum-falling-path-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0967-minimum-falling-path-sum) |
