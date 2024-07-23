@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0890-lemonade-change](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0890-lemonade-change) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+| [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1818-maximum-score-from-removing-substrings) |
 ## Monotonic Stack
 |  |
@@ -180,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1720-crawler-log-folder](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1720-crawler-log-folder) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1741-sort-array-by-increasing-frequency) |
+| [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1803-average-waiting-time](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -202,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0907-koko-eating-bananas](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1046-max-consecutive-ones-iii) |
 | [1675-magnetic-force-between-two-balls](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1675-magnetic-force-between-two-balls) |
+| [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -281,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1170-shortest-common-supersequence](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
+| [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [3482-construct-string-with-minimum-cost](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3482-construct-string-with-minimum-cost) |
 ## Queue
 |  |
