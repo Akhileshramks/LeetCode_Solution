@@ -102,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1207-delete-nodes-and-return-forest) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1370-count-number-of-nice-subarrays) |
+| [1741-sort-array-by-increasing-frequency](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2502-sort-the-people) |
@@ -172,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1675-magnetic-force-between-two-balls](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1675-magnetic-force-between-two-balls) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1720-crawler-log-folder](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1720-crawler-log-folder) |
+| [1741-sort-array-by-increasing-frequency](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1803-average-waiting-time](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -229,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0726-number-of-atoms](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0726-number-of-atoms) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1675-magnetic-force-between-two-balls](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1675-magnetic-force-between-two-balls) |
+| [1741-sort-array-by-increasing-frequency](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2502-sort-the-people](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2502-sort-the-people) |
 | [2846-robot-collisions](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2846-robot-collisions) |
