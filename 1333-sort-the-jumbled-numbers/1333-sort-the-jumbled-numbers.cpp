@@ -30,7 +30,7 @@ public:
         int k = l;
         i=0,j=0;
         while(i<n1 && j<n2){
-            if(compare(l1[i],mapping)<=compare(l2[j],mapping)){
+            if(l1[i]<=l2[j]){
                 nums[k] = l1[i];
                 i++;
                 k++;
@@ -52,6 +52,11 @@ public:
             k++;
         }
     }
+    bool static cmp(const pair<int,int> &a, const pair<int,int> &b) {
+        if (a.first == b.first)
+            return false;
+        return a.first < b.first;
+    }
     void mergesort(int l,int h,vector<int>& nums,vector<int>& mapping){
         if(l<h){
             int mid = l+(h-l)/2;
@@ -62,11 +67,17 @@ public:
     }
     vector<int> sortJumbled(vector<int>& mapping, vector<int>& nums) {
         int n = nums.size();
+        vector<int> m;
+        vector<pair<int,int>> mp;
         for(int i =0;i<n;i++){
-            cout<<compare(nums[i],mapping)<<" ";
+            int mapped = compare(nums[i],mapping);
+            mp.push_back({mapped,nums[i]});
         }
-        
-        mergesort(0,n-1,nums,mapping);
+        //mergesort(0,n-1,m,mapping);
+        sort(mp.begin(),mp.end(),cmp);
+        for(int i =0;i<n;i++){
+            nums[i] = mp[i].second;
+        }
         return nums;
     }
 };
