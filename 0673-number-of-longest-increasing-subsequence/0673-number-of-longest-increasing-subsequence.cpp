@@ -7,13 +7,13 @@ public:
         vector<int> count(n,1);
         int lastind = 0;
         for(int ind=0;ind<n;ind++){
-            for(int j=ind+1;j<n;j++){
-                if(dp[j]<dp[ind]+1 && nums[j]>nums[ind]){
-                    dp[j] = dp[ind]+1;
-                    count[j] = count[ind];
+            for(int j=0;j<ind;j++){
+                if(dp[ind]<dp[j]+1 && nums[j]<nums[ind]){
+                    dp[ind] = dp[j]+1;
+                    count[ind] = count[j];
                 }
-                else if(nums[j]>nums[ind] && dp[j] == dp[ind]+1){
-                    count[j]+=count[ind];
+                else if(nums[ind]>nums[j] && dp[ind] == dp[j]+1){
+                    count[ind]+=count[j];
                 }
             }
             maxi = max(maxi,dp[ind]);
