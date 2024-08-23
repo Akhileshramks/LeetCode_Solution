@@ -1,8 +1,12 @@
 class Solution {
 public:
     int gcd(int x,int y){
-        if(y == 0) return x;
-        return gcd(y,x%y);
+        while(y!=0){
+            int temp = x;
+            x = y;
+            y = temp%y;
+        }
+        return x;
     }
     string fractionAddition(string expression){
         int n = expression.size();
