@@ -67,37 +67,64 @@ public:
     //         }
     //     }
     // }
-    string fractionAddition(string expression) {
-        vector<pair<int, int>> fractions;
-        fractions = extract(expression);
-        for(int i=0;i<fractions.size();i++){
-            cout<<fractions[i].first<<" "<<fractions[i].second<<endl;
-        }
-        int q1 = fractions[0].first;
-        int d1 = fractions[0].second;
-        for(int i=1;i<fractions.size();i++){
-            int q2 = fractions[i].first;
-            int d2 = fractions[i].second;
-            int lcm = d1*d2/gcd(abs(d1),abs(d2));
-            q1 = q1 * (lcm / d1) + q2 * (lcm / d2);
-            d1 = lcm;
-        }
-        if(q1 == 0){
-            return "0/1";
-        }
-        else{
-            int m = gcd(abs(q1),abs(d1));
-            return to_string(q1/m)+"/"+to_string(d1/m);
-        }
-    }
-    // string fractionAddition1(string expression){
-    //     int n = expression.size();
-    //     int i =0 ;
-    //     while(i<n){
-    //         int sign = 1;
-    //         if(expression[i] == '-' || expression[i] == '+'){
-    //             if(expression[i] == '-')
-    //         }
+    // string fractionAddition(string expression) {
+    //     vector<pair<int, int>> fractions;
+    //     fractions = extract(expression);
+    //     for(int i=0;i<fractions.size();i++){
+    //         cout<<fractions[i].first<<" "<<fractions[i].second<<endl;
+    //     }
+    //     int q1 = fractions[0].first;
+    //     int d1 = fractions[0].second;
+    //     for(int i=1;i<fractions.size();i++){
+    //         int q2 = fractions[i].first;
+    //         int d2 = fractions[i].second;
+    //         int lcm = d1*d2/gcd(abs(d1),abs(d2));
+    //         q1 = q1 * (lcm / d1) + q2 * (lcm / d2);
+    //         d1 = lcm;
+    //     }
+    //     if(q1 == 0){
+    //         return "0/1";
+    //     }
+    //     else{
+    //         int m = gcd(abs(q1),abs(d1));
+    //         return to_string(q1/m)+"/"+to_string(d1/m);
     //     }
     // }
+    string fractionAddition(string expression){
+        int n = expression.size();
+        int i =0 ;
+        int numerator = 0;
+        int denominator = 1;
+        while(i<n){
+            int sign = 1;
+            int denom = 0;
+            int num = 0;
+            if(expression[i] == '-' || expression[i] == '+'){
+                if(expression[i] == '-'){
+                    sign = -1;
+                } 
+                i++;
+            }
+            if(isdigit(expression[i])){
+                while(i<n && isdigit(expression[i])){
+                    num = num*10+expression[i]-'0';
+                    i++;
+                }
+                num *= sign;
+            }
+            if(expression[i] == '/'){
+                i++;
+                while(i<n && isdigit(expression[i])){
+                    denom = denom*10+expression[i]-'0';
+                    i++;
+                }
+            }
+            numerator = numerator*denom + num*denominator;
+            denominator = denominator * denom;
+        }
+        int factor = gcd(abs(numerator),abs(denominator));
+        numerator = numerator/factor;
+        denominator = denominator/factor;
+        return to_string(numerator) + "/" + to_string(denominator);
+    }
 };
