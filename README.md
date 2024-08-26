@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0726-number-of-atoms](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0726-number-of-atoms) |
 | [0735-asteroid-collision](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0739-daily-temperatures) |
+| [0776-n-ary-tree-postorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0937-online-stock-span](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0937-online-stock-span) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1720-crawler-log-folder) |
@@ -419,6 +420,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0145-binary-tree-postorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0199-binary-tree-right-side-view) |
 | [0543-diameter-of-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0543-diameter-of-binary-tree) |
+| [0776-n-ary-tree-postorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0975-range-sum-of-bst](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0975-range-sum-of-bst) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1207-delete-nodes-and-return-forest) |
@@ -437,6 +439,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0145-binary-tree-postorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0199-binary-tree-right-side-view) |
 | [0543-diameter-of-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0543-diameter-of-binary-tree) |
+| [0776-n-ary-tree-postorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0975-range-sum-of-bst](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0975-range-sum-of-bst) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
