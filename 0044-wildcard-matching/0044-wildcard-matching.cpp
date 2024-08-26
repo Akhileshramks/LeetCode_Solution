@@ -16,7 +16,7 @@ public:
             return dp[i][j] = wildcardmatching(i-1,j-1,s,p,dp);
         }
         else if(p[j]=='*'){
-            return dp[i][j] = wildcardmatching(i-1,j,s,p,dp) || wildcardmatching(i,j-1,s,p,dp);
+            return dp[i][j] = wildcardmatching(i-1,j,s,p,dp) || wildcardmatching(i,j-1,s,p,dp) || wildcardmatching(i-1,j-1,s,p,dp) ;
         }
         else return dp[i][j] = false;
 
