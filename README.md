@@ -173,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0162-find-peak-element](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0162-find-peak-element) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0204-count-primes) |
 | [0213-house-robber-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0215-kth-largest-element-in-an-array) |
@@ -406,6 +407,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0102-binary-tree-level-order-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0200-number-of-islands) |
 | [0322-coin-change](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0322-coin-change) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -442,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0144-binary-tree-preorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0200-number-of-islands) |
 | [0543-diameter-of-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0543-diameter-of-binary-tree) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -530,6 +533,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0063-unique-paths-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0064-minimum-path-sum) |
 | [0085-maximal-rectangle](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0085-maximal-rectangle) |
+| [0200-number-of-islands](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0200-number-of-islands) |
 | [0921-spiral-matrix-iii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0921-spiral-matrix-iii) |
 | [0967-minimum-falling-path-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0967-minimum-falling-path-sum) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1402-count-square-submatrices-with-all-ones) |
@@ -591,5 +595,6 @@ A collection of LeetCode questions to ace the coding interview!
 ## Union Find
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0200-number-of-islands) |
 | [2035-count-sub-islands](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2035-count-sub-islands) |
 <!---LeetCode Topics End-->
