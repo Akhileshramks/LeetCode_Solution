@@ -207,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0967-minimum-falling-path-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1046-max-consecutive-ones-iii) |
+| [1073-number-of-enclaves](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1073-number-of-enclaves) |
 | [1121-partition-array-for-maximum-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1129-longest-string-chain) |
 | [1196-filling-bookcase-shelves](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1196-filling-bookcase-shelves) |
@@ -417,6 +418,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0803-cheapest-flights-within-k-stops](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1073-number-of-enclaves) |
 | [2035-count-sub-islands](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2035-count-sub-islands) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2171-second-minimum-time-to-reach-destination) |
 ## Tree
@@ -459,6 +461,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0975-range-sum-of-bst](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0975-range-sum-of-bst) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1073-number-of-enclaves](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1073-number-of-enclaves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1207-delete-nodes-and-return-forest) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2035-count-sub-islands](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2035-count-sub-islands) |
@@ -547,6 +550,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0921-spiral-matrix-iii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0921-spiral-matrix-iii) |
 | [0967-minimum-falling-path-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1073-number-of-enclaves) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
@@ -611,5 +615,6 @@ A collection of LeetCode questions to ace the coding interview!
 | [0200-number-of-islands](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0547-number-of-provinces) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [1073-number-of-enclaves](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1073-number-of-enclaves) |
 | [2035-count-sub-islands](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2035-count-sub-islands) |
 <!---LeetCode Topics End-->
