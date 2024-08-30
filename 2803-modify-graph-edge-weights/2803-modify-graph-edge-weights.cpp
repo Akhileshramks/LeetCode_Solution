@@ -1,54 +1,50 @@
 class Solution {
 public:
-    const int INF = 2e9;
-
-    vector<vector<int>> modifiedGraphEdges(int n, vector<vector<int>>& edges,int source, int destination,int target) {
-        vector<vector<pair<int, int>>> graph(n);
-        for (const auto& edge : edges) {
-            if (edge[2] != -1) {
-                graph[edge[0]].emplace_back(edge[1], edge[2]);
-                graph[edge[1]].emplace_back(edge[0], edge[2]);
+    int dijkstra(vector<vector<int>>& edges,int src,int des,int n){
+        vector<vector<pair<int,int>>> adj(n);
+        for(auto &i : edges){
+            if(i[2] != -1){
+                adj[i[0]].push_back({i[1],i[2]});
+                adj[i[1]].push_back({i[0],i[2]});
             }
         }
-        int currentShortestDistance = runDijkstra(n, source, destination, graph);
-        if (currentShortestDistance < target) {
-            return vector<vector<int>>();
-        }
-        bool matchesTarget = (currentShortestDistance == target);
-        for (auto& edge : edges) {
-            if (edge[2] != -1)
-                continue;  
-            edge[2] = matchesTarget ? INF : 1;
-            graph[edge[0]].emplace_back(edge[1], edge[2]);
-            graph[edge[1]].emplace_back(edge[0], edge[2]);
-            if (!matchesTarget) {
-                int newDistance = runDijkstra(n, source, destination, graph);
-                if (newDistance <= target) {
-                    matchesTarget = true;
-                    edge[2] += target - newDistance;
+
+        priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>> pq;
+
+        pq.push({0,src});
+        vector<int> distance(n,INT_MAX);
+        distance[src] = 0;
+        while(!pq.empty()){
+            auto p = pq.top();
+            int d = p.first;
+            int s = p.second;
+            pq.pop();
+            if(distance[s] < d) continue;
+            for(auto &[dest,w] : adj[s]){
+                if( (w+d) < distance[dest]){
+                    distance[dest] = w + d;
+                    pq.push({distance[dest],dest});
                 }
             }
         }
-        return matchesTarget ? edges : vector<vector<int>>();
+        return distance[des];
     }
-
-private:
-    int runDijkstra(int n, int source, int destination,const vector<vector<pair<int, int>>>& graph) {
-        vector<int> minDistance(n, INF);
-        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<>> minHeap;
-        minDistance[source] = 0;
-        minHeap.emplace(0, source);
-        while (!minHeap.empty()) {
-            auto [d, u] = minHeap.top();
-            minHeap.pop();
-            if (d > minDistance[u]) continue;
-            for (const auto& [v, weight] : graph[u]) {
-                if (d + weight < minDistance[v]) {
-                    minDistance[v] = d + weight;
-                    minHeap.emplace(minDistance[v], v);
+    vector<vector<int>> modifiedGraphEdges(int n, vector<vector<int>>& edges, int source, int destination, int target) {
+    
+        int shortest = dijkstra(edges,source,destination,n);
+        if(shortest < target) return {};
+        bool flag = shortest == target;
+        for(auto &e : edges){
+            if(e[2] != -1) continue;
+            e[2] = flag ? 2e9 : 1;
+            if(!flag){
+                int shortest_new = dijkstra(edges,source,destination,n);
+                if(shortest_new <= target){
+                    flag = true;
+                    e[2] += target-shortest_new;
                 }
             }
         }
-        return minDistance[destination];
+        return flag ? edges : vector<vector<int>>();
     }
 };
