@@ -204,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0948-sort-an-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0948-sort-an-array) |
 | [0966-binary-subarrays-with-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0967-minimum-falling-path-sum) |
+| [1036-rotting-oranges](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1046-max-consecutive-ones-iii) |
 | [1121-partition-array-for-maximum-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1129-longest-string-chain) |
@@ -413,6 +414,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0547-number-of-provinces](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0547-number-of-provinces) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1036-rotting-oranges](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1036-rotting-oranges) |
 | [2035-count-sub-islands](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2035-count-sub-islands) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2171-second-minimum-time-to-reach-destination) |
 ## Tree
@@ -540,6 +542,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0200-number-of-islands](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0200-number-of-islands) |
 | [0921-spiral-matrix-iii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0921-spiral-matrix-iii) |
 | [0967-minimum-falling-path-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0967-minimum-falling-path-sum) |
+| [1036-rotting-oranges](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1036-rotting-oranges) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
