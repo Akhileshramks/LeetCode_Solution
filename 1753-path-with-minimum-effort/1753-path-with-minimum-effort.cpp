@@ -18,7 +18,7 @@ public:
             int d = p.first;
             int x = p.second.first;
             int y = p.second.second;
-            if(x == n-1 && y == m-1) continue;
+            //if(x == n-1 && y == m-1) continue;
             for(auto [dx,dy] : coordinates){
                 int xx = x+dx;
                 int yy = y+dy;
