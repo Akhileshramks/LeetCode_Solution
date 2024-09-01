@@ -371,6 +371,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0215-kth-largest-element-in-an-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0347-top-k-frequent-elements) |
+| [0744-network-delay-time](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0948-sort-an-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0948-sort-an-array) |
 | [1325-path-with-maximum-probability](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1325-path-with-maximum-probability) |
@@ -430,6 +431,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0542-01-matrix](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0733-flood-fill) |
+| [0744-network-delay-time](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0820-find-eventual-safe-states) |
@@ -478,6 +480,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0543-diameter-of-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0733-flood-fill) |
+| [0744-network-delay-time](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0744-network-delay-time) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0801-is-graph-bipartite](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -596,6 +599,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0207-course-schedule](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0547-number-of-provinces) |
+| [0744-network-delay-time](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0820-find-eventual-safe-states) |
@@ -609,6 +613,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Shortest Path
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1325-path-with-maximum-probability](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1325-path-with-maximum-probability) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
