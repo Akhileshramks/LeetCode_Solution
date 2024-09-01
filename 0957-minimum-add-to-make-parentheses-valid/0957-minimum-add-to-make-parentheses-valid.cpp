@@ -16,10 +16,7 @@ public:
                 st.push(i);
             }
         }
-        while(!st.empty()){
-            count++;
-            st.pop();
-        }
+        count+=st.size();
         return count;
     }
 };
