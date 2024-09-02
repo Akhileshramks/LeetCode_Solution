@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1642-water-bottles](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1642-water-bottles) |
 | [1803-average-waiting-time](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2645-pass-the-pillow](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2645-pass-the-pillow) |
 | [2846-robot-collisions](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2846-robot-collisions) |
@@ -243,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1798-max-number-of-k-sum-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1803-average-waiting-time](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2035-count-sub-islands](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2035-count-sub-islands) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -271,12 +273,14 @@ A collection of LeetCode questions to ace the coding interview!
 | [1675-magnetic-force-between-two-balls](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1675-magnetic-force-between-two-balls) |
 | [1753-path-with-minimum-effort](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1753-path-with-minimum-effort) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
+| [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 ## Prefix Sum
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1046-max-consecutive-ones-iii) |
+| [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 ## Database
 |  |
 | ------- |
