@@ -11,16 +11,20 @@
  */
 class Solution {
 public:
-    vector<int> m;
-    vector<int> rightside(TreeNode* root,int level){
-        if(root!=NULL){
-            if(m.size() == level) m.push_back(root->val);
-            if(root->right) rightside(root->right,level+1);
-            if(root->left) rightside(root->left,level+1);
-        }
-        return m;
+    map<int,int> rightView;
+    void rightSide(TreeNode* root,int level){
+        if(root == nullptr) return;
+        rightView[level] = root->val;
+        rightSide(root->left,level+1);
+        rightSide(root->right,level+1);
     }
+
     vector<int> rightSideView(TreeNode* root) {
-        return rightside(root,0);
+        rightSide(root,0);
+        vector<int> result;
+        for(auto i : rightView){
+            result.push_back(i.second);
+        }
+        return result;
     }
 };
