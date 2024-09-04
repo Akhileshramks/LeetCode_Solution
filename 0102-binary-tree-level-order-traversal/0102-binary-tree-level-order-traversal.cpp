@@ -11,26 +11,16 @@
  */
 class Solution {
 public:
-    map<int,vector<int>> m;
-    vector<vector<int>> res;
+    void levelOrderTraversal(TreeNode* root,vector<vector<int>> &res,int level){
+        if(root == NULL) return;
+        if(res.size()>level) res[level].push_back(root->val);
+        else res.push_back({root->val});
+        levelOrderTraversal(root->left,res,level+1);
+        levelOrderTraversal(root->right,res,level+1);
+    }
     vector<vector<int>> levelOrder(TreeNode* root) {
-        if(!root){
-            return res;
-        }
-        queue<pair<TreeNode*,int>> q;
-        q.push({root,0});
-        pair<TreeNode*,int> p;
-        while(!q.empty()){
-            p = q.front();
-            q.pop();
-            m[p.second].push_back(p.first->val);
-            if(p.first->left) q.push({p.first->left,p.second+1});
-            if(p.first->right) q.push({p.first->right,p.second+1});
-        }
-        
-        for(auto i : m){
-            res.push_back(i.second);
-        }
+        vector<vector<int>> res;
+        levelOrderTraversal(root,res,0);
         return res;
     }
 };
