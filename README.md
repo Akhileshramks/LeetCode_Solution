@@ -136,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0966-binary-subarrays-with-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0966-binary-subarrays-with-sum) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1034-subarrays-with-k-different-integers](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1034-subarrays-with-k-different-integers) |
 | [1129-longest-string-chain](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1129-longest-string-chain) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1207-delete-nodes-and-return-forest) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1370-count-number-of-nice-subarrays) |
@@ -155,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0424-longest-repeating-character-replacement](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0424-longest-repeating-character-replacement) |
 | [0940-fruit-into-baskets](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0966-binary-subarrays-with-sum) |
+| [1034-subarrays-with-k-different-integers](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -225,6 +227,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0948-sort-an-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0948-sort-an-array) |
 | [0966-binary-subarrays-with-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0967-minimum-falling-path-sum) |
+| [1034-subarrays-with-k-different-integers](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1046-max-consecutive-ones-iii) |
 | [1073-number-of-enclaves](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1073-number-of-enclaves) |
@@ -687,6 +690,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0347-top-k-frequent-elements) |
 | [0948-sort-an-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0948-sort-an-array) |
+| [1034-subarrays-with-k-different-integers](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1034-subarrays-with-k-different-integers) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2163-kth-distinct-string-in-an-array) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Binary Search Tree
