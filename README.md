@@ -283,6 +283,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0162-find-peak-element) |
+| [0222-count-complete-tree-nodes](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0222-count-complete-tree-nodes) |
 | [0300-longest-increasing-subsequence](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0300-longest-increasing-subsequence) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0540-single-element-in-a-sorted-array) |
 | [0794-swim-in-rising-water](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0794-swim-in-rising-water) |
@@ -502,6 +503,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0144-binary-tree-preorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0199-binary-tree-right-side-view) |
+| [0222-count-complete-tree-nodes](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0222-count-complete-tree-nodes) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0543-diameter-of-binary-tree) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0776-n-ary-tree-postorder-traversal) |
@@ -565,6 +567,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0144-binary-tree-preorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0199-binary-tree-right-side-view) |
+| [0222-count-complete-tree-nodes](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0222-count-complete-tree-nodes) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0543-diameter-of-binary-tree) |
 | [0975-range-sum-of-bst](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0975-range-sum-of-bst) |
@@ -579,6 +582,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0029-divide-two-integers](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0029-divide-two-integers) |
 | [0078-subsets](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0136-single-number) |
+| [0222-count-complete-tree-nodes](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0222-count-complete-tree-nodes) |
 | [0231-power-of-two](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0231-power-of-two) |
 | [0476-number-complement](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0476-number-complement) |
 | [1054-complement-of-base-10-integer](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1054-complement-of-base-10-integer) |
