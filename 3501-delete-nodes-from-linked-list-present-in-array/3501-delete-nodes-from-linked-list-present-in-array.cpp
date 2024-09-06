@@ -20,7 +20,9 @@ public:
         while(curr){
             if(delNodes.find(curr->val)!=delNodes.end()){
                 prev->next = curr->next;
+                ListNode* temp = curr;
                 curr = curr ->next;
+                delete(temp);
             }
             else{
                 prev = curr;
