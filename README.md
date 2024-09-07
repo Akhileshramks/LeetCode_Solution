@@ -98,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0062-unique-paths](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0189-rotate-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0231-power-of-two) |
 | [0273-integer-to-english-words](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0273-integer-to-english-words) |
@@ -211,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0162-find-peak-element](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0169-majority-element) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
+| [0189-rotate-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0204-count-primes) |
@@ -336,6 +338,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0075-sort-colors](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0075-sort-colors) |
 | [0141-linked-list-cycle](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0142-linked-list-cycle-ii) |
+| [0189-rotate-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0234-palindrome-linked-list) |
 | [1129-longest-string-chain](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1129-longest-string-chain) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1798-max-number-of-k-sum-pairs) |
