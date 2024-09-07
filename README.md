@@ -112,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0054-spiral-matrix) |
 | [0592-fraction-addition-and-subtraction](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0592-fraction-addition-and-subtraction) |
 | [0735-asteroid-collision](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0735-asteroid-collision) |
 | [0906-walking-robot-simulation](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0906-walking-robot-simulation) |
@@ -188,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0033-search-in-rotated-sorted-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0033-search-in-rotated-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0055-jump-game) |
 | [0063-unique-paths-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0064-minimum-path-sum) |
@@ -673,6 +675,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Matrix
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0054-spiral-matrix) |
 | [0063-unique-paths-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0064-minimum-path-sum) |
 | [0085-maximal-rectangle](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0085-maximal-rectangle) |
