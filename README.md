@@ -186,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0031-next-permutation](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0033-search-in-rotated-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0042-trapping-rain-water) |
+| [0053-maximum-subarray](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0055-jump-game) |
 | [0063-unique-paths-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0064-minimum-path-sum) |
@@ -363,6 +364,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0042-trapping-rain-water) |
 | [0044-wildcard-matching](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0044-wildcard-matching) |
+| [0053-maximum-subarray](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0063-unique-paths-ii) |
@@ -658,6 +660,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0004-median-of-two-sorted-arrays) |
 | [0023-merge-k-sorted-lists](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0023-merge-k-sorted-lists) |
+| [0053-maximum-subarray](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0053-maximum-subarray) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0169-majority-element](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0169-majority-element) |
