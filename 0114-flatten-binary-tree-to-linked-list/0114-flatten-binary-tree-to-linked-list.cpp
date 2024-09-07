@@ -11,7 +11,7 @@
  */
 class Solution {
 public:
-    void flatten(TreeNode* root) {
+    void flatten_optimised(TreeNode* root) {
         TreeNode* curr = root;
         while(curr){
             if(curr ->left){
@@ -24,6 +24,19 @@ public:
                 curr->left = NULL;
             }
             curr = curr->right;
+        }
+    }
+    void flatten(TreeNode* root){
+        if(root == NULL) return;
+        stack<TreeNode*> st;
+        st.push(root);
+        while(!st.empty()){
+            TreeNode* node = st.top();
+            st.pop();
+            if(node->right) st.push(node->right);
+            if(node->left) st.push(node->left);
+            if(!st.empty()) node->right = st.top();
+            node->left = NULL;
         }
     }
 };
