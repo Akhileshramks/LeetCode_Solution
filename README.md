@@ -240,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0735-asteroid-collision](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0747-min-cost-climbing-stairs) |
+| [0792-binary-search](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0794-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0854-making-a-large-island) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0882-peak-index-in-a-mountain-array) |
@@ -306,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0300-longest-increasing-subsequence](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0300-longest-increasing-subsequence) |
 | [0493-reverse-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0540-single-element-in-a-sorted-array) |
+| [0792-binary-search](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0794-swim-in-rising-water) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0907-koko-eating-bananas](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0907-koko-eating-bananas) |
