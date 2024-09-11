@@ -166,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2055-describe-the-painting](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2055-describe-the-painting) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2306-create-binary-tree-from-descriptions) |
+| [2338-minimum-consecutive-cards-to-pick-up](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
 | [2502-sort-the-people](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2502-sort-the-people) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -184,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
+| [2338-minimum-consecutive-cards-to-pick-up](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
 ## Array
 |  |
 | ------- |
@@ -301,6 +303,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2306-create-binary-tree-from-descriptions) |
+| [2338-minimum-consecutive-cards-to-pick-up](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
 | [2411-spiral-matrix-iv](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2411-spiral-matrix-iv) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2472-build-a-matrix-with-conditions) |
 | [2502-sort-the-people](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2502-sort-the-people) |
