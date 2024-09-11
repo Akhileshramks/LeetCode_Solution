@@ -12,6 +12,7 @@ public:
     }
     int minDays(vector<int>& bloomDay, int m, int k) {
         int n = bloomDay.size();
+        if(1ll * m * k > n) return -1;
         int low = *min_element(bloomDay.begin(),bloomDay.end());
         int high = *max_element(bloomDay.begin(),bloomDay.end());
         int maxi = *max_element(bloomDay.begin(),bloomDay.end());
@@ -24,6 +25,6 @@ public:
                 low = mid+1;
             }
         }
-        return low > maxi ? -1 : low;
+        return low;
     }
 };
