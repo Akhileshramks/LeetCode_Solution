@@ -11,20 +11,19 @@ public:
         return ans;
     }
     int minDays(vector<int>& bloomDay, int m, int k) {
-        vector<int> sortedBloomDay = bloomDay;
-        sort(sortedBloomDay.begin(),sortedBloomDay.end());
-        int n = sortedBloomDay.size();
-        int low = 0;
-        int high = sortedBloomDay.size()-1;
+        int n = bloomDay.size();
+        int low = *min_element(bloomDay.begin(),bloomDay.end());
+        int high = *max_element(bloomDay.begin(),bloomDay.end());
+        int maxi = *max_element(bloomDay.begin(),bloomDay.end());
         while(low <= high){
             int mid = low + (high - low)/2;
-            if(checkPossible(bloomDay,sortedBloomDay[mid],k) >= m){
+            if(checkPossible(bloomDay,mid,k) >= m){
                 high = mid-1;
             }
             else{
                 low = mid+1;
             }
         }
-        return low == n ? -1 : sortedBloomDay[low];
+        return low > maxi ? -1 : low;
     }
 };
