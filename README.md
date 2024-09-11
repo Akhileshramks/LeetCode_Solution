@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0055-jump-game](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0402-remove-k-digits](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0402-remove-k-digits) |
+| [0410-split-array-largest-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0410-split-array-largest-sum) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0890-lemonade-change](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0890-lemonade-change) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -231,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0322-coin-change](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0368-largest-divisible-subset) |
+| [0410-split-array-largest-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0416-partition-equal-subset-sum) |
 | [0493-reverse-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0494-target-sum) |
@@ -316,6 +318,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0162-find-peak-element](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0162-find-peak-element) |
 | [0222-count-complete-tree-nodes](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0222-count-complete-tree-nodes) |
 | [0300-longest-increasing-subsequence](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0300-longest-increasing-subsequence) |
+| [0410-split-array-largest-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0410-split-array-largest-sum) |
 | [0493-reverse-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0540-single-element-in-a-sorted-array) |
 | [0792-binary-search](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0792-binary-search) |
@@ -332,6 +335,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Prefix Sum
 |  |
 | ------- |
+| [0410-split-array-largest-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1046-max-consecutive-ones-iii) |
@@ -414,6 +418,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0312-burst-balloons](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0322-coin-change) |
 | [0368-largest-divisible-subset](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0368-largest-divisible-subset) |
+| [0410-split-array-largest-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0516-longest-palindromic-subsequence) |
