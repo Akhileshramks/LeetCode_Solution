@@ -301,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2035-count-sub-islands](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2035-count-sub-islands) |
+| [2047-find-a-peak-element-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2047-find-a-peak-element-ii) |
 | [2055-describe-the-painting](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2055-describe-the-painting) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2155-find-missing-observations](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2155-find-missing-observations) |
@@ -348,6 +349,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1753-path-with-minimum-effort](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1753-path-with-minimum-effort) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [2047-find-a-peak-element-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2047-find-a-peak-element-ii) |
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3485-maximize-score-of-numbers-in-ranges) |
 ## Prefix Sum
 |  |
@@ -755,6 +757,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1753-path-with-minimum-effort](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1753-path-with-minimum-effort) |
 | [2035-count-sub-islands](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2035-count-sub-islands) |
+| [2047-find-a-peak-element-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2047-find-a-peak-element-ii) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2411-spiral-matrix-iv](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2411-spiral-matrix-iv) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2472-build-a-matrix-with-conditions) |
