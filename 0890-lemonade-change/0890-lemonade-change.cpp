@@ -1,28 +1,26 @@
 class Solution {
 public:
     bool lemonadeChange(vector<int>& bills) {
-        vector<int> count(3,0);
-        for(auto i:bills){
-            if(i == 5){
-                count[0]+=1;
-            }
+        int count5 =0;
+        int count10 = 0;
+        for(int i  : bills){
+            if(i == 5) count5++;
             else if(i == 10){
-                count[1]+=1;
-                if(count[0]){
-                    count[0]-=1;
+                if(count5>0){
+                    count5--;
+                    count10++;
                 }
                 else{
                     return false;
-                }
+                }  
             }
-            else if(i == 20){
-                count[2]+=1;
-                if(count[1] && count[0]){
-                    count[1]-=1;
-                    count[0]-=1;
+            else{
+                if(count10 > 0 && count5>0){
+                    count10--;
+                    count5--;
                 }
-                else if(count[0]>=3){
-                        count[0]-=3;
+                else if(count5>=3){
+                    count5-=3;
                 }
                 else{
                     return false;
