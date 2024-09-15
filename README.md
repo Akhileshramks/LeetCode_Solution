@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1720-crawler-log-folder](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1720-crawler-log-folder) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1786-count-the-number-of-consistent-strings) |
@@ -167,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1207-delete-nodes-and-return-forest](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1207-delete-nodes-and-return-forest) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1786-count-the-number-of-consistent-strings) |
@@ -374,6 +376,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0966-binary-subarrays-with-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1046-max-consecutive-ones-iii) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1435-xor-queries-of-a-subarray) |
+| [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2055-describe-the-painting](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2055-describe-the-painting) |
@@ -703,6 +706,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0476-number-complement](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0476-number-complement) |
 | [1054-complement-of-base-10-integer](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1054-complement-of-base-10-integer) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1435-xor-queries-of-a-subarray) |
+| [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
