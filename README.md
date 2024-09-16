@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0937-online-stock-span](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0937-online-stock-span) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1720-crawler-log-folder) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1756-minimum-deletions-to-make-string-balanced) |
@@ -101,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0402-remove-k-digits](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0402-remove-k-digits) |
 | [0739-daily-temperatures](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0739-daily-temperatures) |
 | [0937-online-stock-span](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0937-online-stock-span) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Math
 |  |
 | ------- |
@@ -285,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1034-subarrays-with-k-different-integers](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1046-max-consecutive-ones-iii) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1073-number-of-enclaves](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1073-number-of-enclaves) |
 | [1121-partition-array-for-maximum-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1121-partition-array-for-maximum-sum) |
@@ -626,6 +629,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0975-range-sum-of-bst](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0975-range-sum-of-bst) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1207-delete-nodes-and-return-forest) |
 | [1484-linked-list-in-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1484-linked-list-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1653-number-of-good-leaf-nodes-pairs) |
@@ -708,6 +712,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0975-range-sum-of-bst](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0975-range-sum-of-bst) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1207-delete-nodes-and-return-forest) |
 | [1484-linked-list-in-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1484-linked-list-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1653-number-of-good-leaf-nodes-pairs) |
@@ -887,6 +892,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0783-search-in-a-binary-search-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0975-range-sum-of-bst](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0975-range-sum-of-bst) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Union Find
 |  |
 | ------- |
