@@ -11,18 +11,22 @@
  */
 class Solution {
 public:
-    TreeNode* insertBST(TreeNode* &root,TreeNode* node){
-        if(root == NULL) return node;
-        if(root->val > node->val) root->left = insertBST(root->left,node);
-        else root->right = insertBST(root->right,node);
+    TreeNode* constructBST(vector<int>& preorder,vector<int>& inorder,int preStart,int preEnd,int inStart,int inEnd,unordered_map<int,int> &order){
+        if(preStart > preEnd || inStart > inEnd) return NULL;
+        TreeNode* root = new TreeNode(preorder[preStart]);
+        int ind = order[preorder[preStart]];
+        int n = ind - inStart;
+        root->left = constructBST(preorder,inorder,preStart+1,preStart+n,inStart,ind-1,order);
+        root->right = constructBST(preorder,inorder,preStart+n+1,preEnd,ind+1,inEnd,order);
         return root;
+
     }
     TreeNode* bstFromPreorder(vector<int>& preorder) {
-        TreeNode* root = new TreeNode(preorder[0]);
+        vector<int> inorder(preorder.begin(),preorder.end());
+        sort(inorder.begin(),inorder.end());
         int n = preorder.size();
-        for(int i=1;i<n;i++){
-            insertBST(root,new TreeNode(preorder[i]));
-        }
-        return root;
+        unordered_map<int,int> order;
+        for(int i = 0;i<n;i++) order[inorder[i]] = i;
+        return constructBST(preorder,inorder,0,n-1,0,n-1,order);
     }
 };
