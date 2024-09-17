@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0155-min-stack](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0234-palindrome-linked-list) |
 | [0402-remove-k-digits](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0402-remove-k-digits) |
+| [0503-next-greater-element-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0503-next-greater-element-ii) |
 | [0678-valid-parenthesis-string](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0678-valid-parenthesis-string) |
 | [0726-number-of-atoms](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0726-number-of-atoms) |
 | [0735-asteroid-collision](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0735-asteroid-collision) |
@@ -105,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0084-largest-rectangle-in-histogram](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0085-maximal-rectangle) |
 | [0402-remove-k-digits](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0402-remove-k-digits) |
+| [0503-next-greater-element-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0739-daily-temperatures) |
 | [0937-online-stock-span](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0937-online-stock-span) |
 | [1017-odd-even-jump](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1017-odd-even-jump) |
@@ -272,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0455-assign-cookies](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0455-assign-cookies) |
 | [0493-reverse-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0494-target-sum) |
+| [0503-next-greater-element-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0503-next-greater-element-ii) |
 | [0518-coin-change-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0518-coin-change-ii) |
 | [0539-minimum-time-difference](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0539-minimum-time-difference) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0540-single-element-in-a-sorted-array) |
