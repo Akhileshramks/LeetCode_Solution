@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0937-online-stock-span](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0937-online-stock-span) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1017-odd-even-jump](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1017-odd-even-jump) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1720-crawler-log-folder) |
@@ -104,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0402-remove-k-digits](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0402-remove-k-digits) |
 | [0739-daily-temperatures](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0739-daily-temperatures) |
 | [0937-online-stock-span](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0937-online-stock-span) |
+| [1017-odd-even-jump](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1017-odd-even-jump) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Math
 |  |
@@ -290,6 +292,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0948-sort-an-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0948-sort-an-array) |
 | [0966-binary-subarrays-with-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0967-minimum-falling-path-sum) |
+| [1017-odd-even-jump](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1017-odd-even-jump) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1046-max-consecutive-ones-iii) |
@@ -491,6 +494,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0747-min-cost-climbing-stairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0967-minimum-falling-path-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0967-minimum-falling-path-sum) |
+| [1017-odd-even-jump](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1017-odd-even-jump) |
 | [1121-partition-array-for-maximum-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1170-shortest-common-supersequence) |
@@ -930,6 +934,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0493-reverse-pairs) |
+| [1017-odd-even-jump](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1017-odd-even-jump) |
 ## Brainteaser
 |  |
 | ------- |
