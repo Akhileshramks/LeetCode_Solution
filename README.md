@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0127-word-ladder](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0127-word-ladder) |
 | [0132-palindrome-partitioning-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0132-palindrome-partitioning-ii) |
 | [0179-largest-number](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0179-largest-number) |
+| [0241-different-ways-to-add-parentheses](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0273-integer-to-english-words) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0402-remove-k-digits](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0402-remove-k-digits) |
@@ -129,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0189-rotate-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0231-power-of-two) |
+| [0241-different-ways-to-add-parentheses](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0273-integer-to-english-words) |
 | [0368-largest-divisible-subset](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0368-largest-divisible-subset) |
 | [0539-minimum-time-difference](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0539-minimum-time-difference) |
@@ -497,6 +499,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0213-house-robber-ii) |
+| [0241-different-ways-to-add-parentheses](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0241-different-ways-to-add-parentheses) |
 | [0300-longest-increasing-subsequence](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0312-burst-balloons) |
@@ -586,6 +589,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0044-wildcard-matching](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0044-wildcard-matching) |
 | [0231-power-of-two](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0234-palindrome-linked-list) |
+| [0241-different-ways-to-add-parentheses](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0273-integer-to-english-words) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Design
@@ -820,6 +824,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0070-climbing-stairs) |
+| [0241-different-ways-to-add-parentheses](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0241-different-ways-to-add-parentheses) |
 ## Combinatorics
 |  |
 | ------- |
