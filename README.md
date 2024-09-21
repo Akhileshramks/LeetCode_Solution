@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0726-number-of-atoms](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0726-number-of-atoms) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1122-longest-duplicate-substring](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1122-longest-duplicate-substring) |
 | [1129-longest-string-chain](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1250-longest-common-subsequence) |
@@ -218,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0966-binary-subarrays-with-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1046-max-consecutive-ones-iii) |
+| [1122-longest-duplicate-substring](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1122-longest-duplicate-substring) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
@@ -396,6 +398,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0907-koko-eating-bananas](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1122-longest-duplicate-substring](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1122-longest-duplicate-substring) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1646-kth-missing-positive-number) |
@@ -802,6 +805,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Suffix Array
 |  |
 | ------- |
+| [1122-longest-duplicate-substring](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1122-longest-duplicate-substring) |
 | [3482-construct-string-with-minimum-cost](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3482-construct-string-with-minimum-cost) |
 ## Enumeration
 |  |
@@ -988,6 +992,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0214-shortest-palindrome) |
+| [1122-longest-duplicate-substring](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1122-longest-duplicate-substring) |
 | [1508-longest-happy-prefix](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1508-longest-happy-prefix) |
 ## String Matching
 |  |
@@ -999,6 +1004,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0214-shortest-palindrome) |
+| [1122-longest-duplicate-substring](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1122-longest-duplicate-substring) |
 | [1508-longest-happy-prefix](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1508-longest-happy-prefix) |
 ## Trie
 |  |
