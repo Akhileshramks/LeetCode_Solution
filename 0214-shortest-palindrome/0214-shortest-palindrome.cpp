@@ -1,27 +1,28 @@
 class Solution {
 public:
     string shortestPalindrome(string s) {
-        string reversedString = string(s.rbegin(), s.rend());
-        string combinedString = s + "#" + reversedString;
-        vector<int> prefixTable = buildPrefixTable(combinedString);
-        int palindromeLength = prefixTable[combinedString.length() - 1];
-        string suffix = reversedString.substr(0, s.length() - palindromeLength);
-        return suffix + s;
-    }
-
-private:
-    vector<int> buildPrefixTable(const string& s) {
-        vector<int> prefixTable(s.length(), 0);
+        string rev = s;
+        reverse(rev.begin(),rev.end());
+        string new_string = s + "#" + rev;
+        int n = new_string.size();
+        vector<int> lps(n,0);
         int length = 0;
-        for (int i = 1; i < s.length(); i++) {
-            while (length > 0 && s[i] != s[length]) {
-                length = prefixTable[length - 1];
-            }
-            if (s[i] == s[length]) {
-                length++;
-            }
-            prefixTable[i] = length;
+        for(int i = 1;i < n;i++){
+            while(length > 0 && new_string[i] != new_string[length]){
+                length = lps[length-1];
+            } 
+            if(new_string[i] == new_string[length]) length++;
+            lps[i] = length;
         }
-        return prefixTable;
+        int m = lps[n-1];
+        return rev.substr(0,s.size() - m) + s;
     }
 };
+
+
+/*
+
+ a a c e c a a a # a a a c e c a a
+ 0 1 0 0 0 1 2 2 0 1 2 2 3 4 5 6 7           
+   l                              
+*/
