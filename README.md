@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
+| [1508-longest-happy-prefix](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1508-longest-happy-prefix) |
 | [1720-crawler-log-folder](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1720-crawler-log-folder) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1786-count-the-number-of-consistent-strings) |
@@ -985,14 +986,17 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0214-shortest-palindrome) |
+| [1508-longest-happy-prefix](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1508-longest-happy-prefix) |
 ## String Matching
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0214-shortest-palindrome) |
+| [1508-longest-happy-prefix](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1508-longest-happy-prefix) |
 ## Hash Function
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0214-shortest-palindrome) |
+| [1508-longest-happy-prefix](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1508-longest-happy-prefix) |
 ## Trie
 |  |
 | ------- |
