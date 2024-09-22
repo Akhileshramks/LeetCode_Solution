@@ -2,7 +2,7 @@ class Solution {
 public:
     bool isPossible(int mountainHeight, vector<int>& workerTimes, long long time){
         int len_w = workerTimes.size();
-        for(int i = 0 ; i < len_w; i++ ){
+        for(int i = 0; i < len_w; i++ ){
             if(mountainHeight > 0){
                 long long c = time * 2 / workerTimes[i];
                 int n = (-1 + sqrt(1 + 4 * c)) / 2;
