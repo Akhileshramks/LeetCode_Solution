@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1122-longest-duplicate-substring](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1122-longest-duplicate-substring) |
 | [1129-longest-string-chain](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1170-shortest-common-supersequence) |
+| [1197-parsing-a-boolean-expression](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1197-parsing-a-boolean-expression) |
 | [1250-longest-common-subsequence](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1250-longest-common-subsequence) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -82,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1017-odd-even-jump](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1017-odd-even-jump) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1197-parsing-a-boolean-expression](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1197-parsing-a-boolean-expression) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1720-crawler-log-folder) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1756-minimum-deletions-to-make-string-balanced) |
@@ -614,6 +616,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0234-palindrome-linked-list](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0234-palindrome-linked-list) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0273-integer-to-english-words) |
+| [1197-parsing-a-boolean-expression](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1197-parsing-a-boolean-expression) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Design
 |  |
