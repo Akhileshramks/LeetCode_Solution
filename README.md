@@ -313,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0721-accounts-merge](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0721-accounts-merge) |
+| [0729-my-calendar-i](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0729-my-calendar-i) |
 | [0733-flood-fill](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0739-daily-temperatures) |
@@ -411,6 +412,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0410-split-array-largest-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0410-split-array-largest-sum) |
 | [0493-reverse-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0540-single-element-in-a-sorted-array) |
+| [0729-my-calendar-i](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0729-my-calendar-i) |
 | [0792-binary-search](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0794-swim-in-rising-water) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0882-peak-index-in-a-mountain-array) |
@@ -630,6 +632,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0295-find-median-from-data-stream](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0307-range-sum-query-mutable](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0307-range-sum-query-mutable) |
+| [0729-my-calendar-i](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0729-my-calendar-i) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0937-online-stock-span) |
 ## Data Stream
@@ -856,6 +859,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0307-range-sum-query-mutable](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0307-range-sum-query-mutable) |
 | [0493-reverse-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0493-reverse-pairs) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [0729-my-calendar-i](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0729-my-calendar-i) |
 ## Memoization
 |  |
 | ------- |
@@ -1012,6 +1016,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0493-reverse-pairs) |
+| [0729-my-calendar-i](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0729-my-calendar-i) |
 | [1017-odd-even-jump](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1017-odd-even-jump) |
 ## Brainteaser
 |  |
