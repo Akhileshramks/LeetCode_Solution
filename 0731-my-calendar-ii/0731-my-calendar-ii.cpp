@@ -15,8 +15,9 @@ public:
                 interval = {max(start,i.first),min(end,i.second)};
                 cout<<interval.first<<" "<<interval.second<<" ";
                 for(auto j : overlap){
-                    if(!(interval.second <= j.first || interval.first >= j.second)) count++;
-                    if(count >= 1) return false;
+                    if(!(interval.second <= j.first || interval.first >= j.second)){
+                        return false;
+                    }
                 }
                 overlap.push_back(interval);
             }
