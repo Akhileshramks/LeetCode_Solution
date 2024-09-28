@@ -19,9 +19,6 @@ public:
     int count = 0;
 
     MyCircularDeque(int k) {
-        ios_base::sync_with_stdio(false);
-        cin.tie(NULL);
-        cout.tie(NULL);
         size = k;
         front = NULL;
         end = NULL;
