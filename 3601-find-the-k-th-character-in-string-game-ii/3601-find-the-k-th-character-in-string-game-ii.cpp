@@ -13,9 +13,7 @@ public:
                 break;
             }
             k = k % (1LL<<(l-1));
-            cout<<"l :"<<l<<" ";
             sum += l == 0 ? operations[0] : operations[l-1];
-            cout<<"s = "<<s<<endl;
         }
         return res;
     }
