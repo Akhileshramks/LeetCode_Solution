@@ -201,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0268-missing-number](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0424-longest-repeating-character-replacement) |
+| [0432-all-oone-data-structure](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0432-all-oone-data-structure) |
 | [0560-subarray-sum-equals-k](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0621-task-scheduler) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -625,6 +626,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0234-palindrome-linked-list](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0328-odd-even-linked-list) |
+| [0432-all-oone-data-structure](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0432-all-oone-data-structure) |
 | [0725-split-linked-list-in-parts](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0725-split-linked-list-in-parts) |
 | [0859-design-circular-deque](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0859-design-circular-deque) |
 | [1484-linked-list-in-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1484-linked-list-in-binary-tree) |
@@ -650,6 +652,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0295-find-median-from-data-stream](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0307-range-sum-query-mutable](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0307-range-sum-query-mutable) |
+| [0432-all-oone-data-structure](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0432-all-oone-data-structure) |
 | [0729-my-calendar-i](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0731-my-calendar-ii) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -1075,4 +1078,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [1300-critical-connections-in-a-network](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1300-critical-connections-in-a-network) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0432-all-oone-data-structure](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0432-all-oone-data-structure) |
 <!---LeetCode Topics End-->
