@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 | [1197-parsing-a-boolean-expression](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1197-parsing-a-boolean-expression) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
+| [1497-design-a-stack-with-increment-operation](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1720-crawler-log-folder](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1720-crawler-log-folder) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1818-maximum-score-from-removing-substrings) |
@@ -366,6 +367,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1435-xor-queries-of-a-subarray) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [1497-design-a-stack-with-increment-operation](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1511-count-number-of-teams](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1511-count-number-of-teams) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
@@ -658,6 +660,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0789-kth-largest-element-in-a-stream](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0859-design-circular-deque](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0859-design-circular-deque) |
 | [0937-online-stock-span](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0937-online-stock-span) |
+| [1497-design-a-stack-with-increment-operation](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1497-design-a-stack-with-increment-operation) |
 ## Data Stream
 |  |
 | ------- |
