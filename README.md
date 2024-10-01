@@ -702,6 +702,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1036-rotting-oranges](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1243-sum-of-nodes-with-even-valued-grandparent](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1243-sum-of-nodes-with-even-valued-grandparent) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1484-linked-list-in-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1484-linked-list-in-binary-tree) |
 | [1753-path-with-minimum-effort](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1753-path-with-minimum-effort) |
@@ -744,6 +745,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1207-delete-nodes-and-return-forest) |
+| [1243-sum-of-nodes-with-even-valued-grandparent](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1243-sum-of-nodes-with-even-valued-grandparent) |
 | [1484-linked-list-in-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1484-linked-list-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
@@ -791,6 +793,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1073-number-of-enclaves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1207-delete-nodes-and-return-forest) |
+| [1243-sum-of-nodes-with-even-valued-grandparent](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1243-sum-of-nodes-with-even-valued-grandparent) |
 | [1300-critical-connections-in-a-network](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1300-critical-connections-in-a-network) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1484-linked-list-in-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1484-linked-list-in-binary-tree) |
@@ -834,6 +837,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1207-delete-nodes-and-return-forest) |
+| [1243-sum-of-nodes-with-even-valued-grandparent](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1243-sum-of-nodes-with-even-valued-grandparent) |
 | [1484-linked-list-in-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1484-linked-list-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
