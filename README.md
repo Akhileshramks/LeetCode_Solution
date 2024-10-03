@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3482-construct-string-with-minimum-cost](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3482-construct-string-with-minimum-cost) |
+| [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Stack
 |  |
 | ------- |
@@ -240,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Sliding Window
 |  |
 | ------- |
@@ -257,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
+| [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Array
 |  |
 | ------- |
