@@ -4,21 +4,19 @@ public:
         long long sum = accumulate(skill.begin(),skill.end(),0);
         int n = skill.size();
         if(sum % (1ll*(n/2)) != 0) return -1;
-        sort(skill.begin(),skill.end());
-        int low = 0;
-        int high = n-1;
-        long long target = sum / ((n/2)*1ll);
-        cout<< target;
+        unordered_map<int,int> mpp;
         long long res = 0;
-        while(low < high){
-            if(skill[low] + skill[high] == target){
-                res += (skill[low] * skill[high]);
+        long long target = sum / (1ll * (n/2));
+        for(auto &i : skill) mpp[i]++;
+        for(auto &i : skill){
+            if(mpp[i] > 0 && mpp[target-i]>0){
+                res += (i * (target-i));
+                mpp[i]--;
+                mpp[target-i]--;
             }
-            else{
+            else if(mpp[i] > 0 || mpp[target-i] >0 ){
                 return -1;
             }
-            low++;
-            high--;
         }
         return res;
     }
