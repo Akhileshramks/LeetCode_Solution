@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1818-maximum-score-from-removing-substrings) |
+| [1923-sentence-similarity-iii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1923-sentence-similarity-iii) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2157-smallest-k-length-subsequence-with-occurrences-of-a-letter](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2157-smallest-k-length-subsequence-with-occurrences-of-a-letter) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -399,6 +400,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1798-max-number-of-k-sum-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1803-average-waiting-time](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1803-average-waiting-time) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1878-check-if-array-is-sorted-and-rotated) |
+| [1923-sentence-similarity-iii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1923-sentence-similarity-iii) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2035-count-sub-islands](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2035-count-sub-islands) |
@@ -505,6 +507,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [1129-longest-string-chain](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1129-longest-string-chain) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1798-max-number-of-k-sum-pairs) |
+| [1923-sentence-similarity-iii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1923-sentence-similarity-iii) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 ## Sorting
