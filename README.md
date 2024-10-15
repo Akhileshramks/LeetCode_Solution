@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2727-number-of-senior-citizens](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2727-number-of-senior-citizens) |
 | [2755-extra-characters-in-a-string](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2755-extra-characters-in-a-string) |
 | [2854-decremental-string-concatenation](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2854-decremental-string-concatenation) |
+| [3195-separate-black-and-white-balls](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3195-separate-black-and-white-balls) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
@@ -132,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1818-maximum-score-from-removing-substrings](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2157-smallest-k-length-subsequence-with-occurrences-of-a-letter](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2157-smallest-k-length-subsequence-with-occurrences-of-a-letter) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
+| [3195-separate-black-and-white-balls](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3195-separate-black-and-white-balls) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3485-maximize-score-of-numbers-in-ranges) |
 ## Monotonic Stack
@@ -523,6 +525,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2271-rearrange-array-elements-by-sign](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [3195-separate-black-and-white-balls](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3195-separate-black-and-white-balls) |
 ## Sorting
 |  |
 | ------- |
