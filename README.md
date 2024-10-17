@@ -123,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0455-assign-cookies](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0670-maximum-swap](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0670-maximum-swap) |
 | [0678-valid-parenthesis-string](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0678-valid-parenthesis-string) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0876-hand-of-straights](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0876-hand-of-straights) |
@@ -175,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0539-minimum-time-difference](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0539-minimum-time-difference) |
 | [0564-find-the-closest-palindrome](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0564-find-the-closest-palindrome) |
 | [0592-fraction-addition-and-subtraction](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0592-fraction-addition-and-subtraction) |
+| [0670-maximum-swap](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0670-maximum-swap) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1370-count-number-of-nice-subarrays) |
 | [1642-water-bottles](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1951-find-the-winner-of-the-circular-game) |
