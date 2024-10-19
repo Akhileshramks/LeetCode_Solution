@@ -7,12 +7,12 @@ public:
         int flip = k;
         int res = INT_MIN;
         while(right < n){
-            while(nums[right] == 0 && flip == 0 && left < n){
+            if(nums[right] == 0) flip--;
+            if(flip < 0 && left < n){
                 if(nums[left] == 0) flip++;
                 left++;
             }
-            if(nums[right] == 0 && flip > 0) flip--;
-            res = max(res,right-left+1);
+            if(flip >= 0) res = max(res,right-left+1);
             right++;
         }
         return res;
