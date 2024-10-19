@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0234-palindrome-linked-list](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0234-palindrome-linked-list) |
 | [0316-remove-duplicate-letters](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0316-remove-duplicate-letters) |
 | [0402-remove-k-digits](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0402-remove-k-digits) |
+| [0496-next-greater-element-i](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0503-next-greater-element-ii) |
 | [0678-valid-parenthesis-string](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0678-valid-parenthesis-string) |
 | [0726-number-of-atoms](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0726-number-of-atoms) |
@@ -147,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0085-maximal-rectangle](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0085-maximal-rectangle) |
 | [0316-remove-duplicate-letters](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0316-remove-duplicate-letters) |
 | [0402-remove-k-digits](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0402-remove-k-digits) |
+| [0496-next-greater-element-i](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0739-daily-temperatures) |
 | [0937-online-stock-span](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0937-online-stock-span) |
@@ -218,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0355-design-twitter](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0355-design-twitter) |
 | [0424-longest-repeating-character-replacement](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0424-longest-repeating-character-replacement) |
 | [0432-all-oone-data-structure](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0432-all-oone-data-structure) |
+| [0496-next-greater-element-i](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0621-task-scheduler) |
@@ -343,6 +346,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0455-assign-cookies](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0455-assign-cookies) |
 | [0493-reverse-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0494-target-sum) |
+| [0496-next-greater-element-i](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0503-next-greater-element-ii) |
 | [0518-coin-change-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0518-coin-change-ii) |
 | [0539-minimum-time-difference](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0539-minimum-time-difference) |
