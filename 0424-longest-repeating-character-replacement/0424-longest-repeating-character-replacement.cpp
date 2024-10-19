@@ -8,7 +8,7 @@ public:
         while(r < n){
             mpp[s[r]-'A']++;
             maxf = max(mpp[s[r]-'A'],maxf);
-            while(r - l + 1 - maxf > k && l < r){
+            if(r - l + 1 - maxf > k && l < r){
                 mpp[s[l]-'A']--;
                 l++;
             }
