@@ -1,22 +1,23 @@
 class Solution {
 public:
-    int numberOfSubarrays1(vector<int>& nums, int k) {
+    int numberOfAtmostSubarrays(vector<int>& nums,int k){
         int sum = 0;
-        int n = nums.size();
-        int left = 0;
-        int right = 0;
         int count = 0;
-        for(right=0;right<n;right++){
-            sum += nums[right]%2;
-            while(left<=right && sum>k){
-                sum-=nums[left]%2;
-                left++;
+        int low = 0;
+        int right = 0;
+        int n = nums.size();
+        while(right < n){
+            sum += (nums[right]%2);
+            while(sum > k && low <= right){
+                sum -= (nums[low]%2);
+                low++;
             }
-            count += right-left+1;
+            count += (right - low + 1);
+            right++;
         }
         return count;
     }
     int numberOfSubarrays(vector<int>& nums, int k) {
-        return numberOfSubarrays1(nums,k)- numberOfSubarrays1(nums,k-1);
+        return numberOfAtmostSubarrays(nums,k) - numberOfAtmostSubarrays(nums,k-1);
     }
 };
