@@ -1,30 +1,20 @@
 class Solution {
 public:
-    int maxRect(vector<int> &nums){
-        int n = nums.size();
+    int largestRectangleArea(vector<int>& heights) {
+        int n = heights.size();
         stack<int> st;
-        st.push(0);
-        int maxi = INT_MIN;
-        for(int i=1;i<n;i++){
-            while(!st.empty() && nums[st.top()]>nums[i]){
-                int popped = st.top();
+        int res = 0;
+        for(int i = 0; i <= n; i++){
+            int currentHeight = i == n ? 0 : heights[i];
+            while(!st.empty() && currentHeight < heights[st.top()]){
+                int eleInd = st.top();
                 st.pop();
-                int prev_min = !st.empty() ? st.top() : -1;
-                int next_min = i;
-                int area = nums[popped]*(next_min-prev_min-1);
-                maxi = max(maxi,area);
+                int width = st.empty() ? i : i - st.top() - 1;
+                res = max(res,width * heights[eleInd]);
             }
             st.push(i);
         }
-        while(!st.empty()){
-            int popped = st.top();
-            st.pop();
-            int prev_max = !st.empty() ? st.top() : -1;
-            int next_max = n;
-            int area = nums[popped]*(next_max-prev_max-1);
-            maxi = max(maxi,area);
-        }
-        return maxi;
+        return res;
     }
     int maximalRectangle(vector<vector<char>>& matrix) {
         int n = matrix.size();
@@ -42,7 +32,7 @@ public:
         }
         int maxi = 0;
         for(int i=0;i<n;i++){
-            maxi = max(maxi,maxRect(num[i]));
+            maxi = max(maxi,largestRectangleArea(num[i]));
         }
         return maxi;
     }
