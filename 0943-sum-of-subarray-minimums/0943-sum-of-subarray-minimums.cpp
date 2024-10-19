@@ -1,36 +1,33 @@
 class Solution {
 public:
     int sumSubarrayMins(vector<int>& arr) {
-        const int MOD = 1e9 + 7;
+
         stack<int> st;
+        int MOD = 1e9+7;
         int n = arr.size();
-        vector<int> PSE(n,-1),NSE(n,n);
-        for(int i =0;i<n;i++){
+        vector<int> prevSmaller(n,-1);
+        for(int i = 0;i < n;i++){
             while(!st.empty() && arr[st.top()] > arr[i]){
-                NSE[st.top()] = i;
+                st.pop();
+            }
+            if(!st.empty()) prevSmaller[i] = st.top();
+            st.push(i);
+        }
+        vector<int> nextSmaller(n,n);
+        long long res = 0;
+        st = stack<int>();
+        for(int i = 0;i < n ;i++){
+            while(!st.empty() && arr[st.top()] > arr[i]){
+                nextSmaller[st.top()] = i;
                 st.pop();
             }
             st.push(i);
         }
-        st = stack<int>();
-        for(int i =0;i<n;i++){
-            while(!st.empty() && arr[st.top()] > arr[i]) st.pop();
-            if(!st.empty()) PSE[i] = st.top();
-            st.push(i);
+        for(int i = 0;i<n;i++){
+            int left = i - prevSmaller[i];
+            int right = nextSmaller[i] -i;
+            res = (res + ((left*right*1LL)%MOD*arr[i]*1LL)%MOD)%MOD;
         }
-        int sum = 0 ;
-        for(int i=0;i<n;i++){
-            int left = i - PSE[i];
-            int right = NSE[i] - i;
-            sum = (sum + (left*right*1LL*arr[i]%MOD)%MOD)%MOD;
-        }
-        return sum;
+        return res;
     }
 };
-
-/*
-
-[   3      1      2      4  ]
-    -1      2
-    -1      3
-*/
