@@ -1,26 +1,24 @@
 class Solution {
 public:
-
-    int subarraysWithAtleastKDistinct(vector<int>& nums, int k) {
-        unordered_map<int,int> mpp;
-        int n = nums.size();
-        int l = 0 , r = 0 , noOfSubArray = 0;
+    int subarrays(vector<int>& nums,int k){
+        unordered_map<int,int> countMap;
+        int low = 0;
+        int high = 0;
         int count = 0;
-        while(r<n){
-            mpp[nums[r]]++;
-            while(mpp.size()>k){
-                mpp[nums[l]]--;
-                if(mpp[nums[l]] == 0){
-                    mpp.erase(nums[l]);
-                }
-                l++;
+        int n = nums.size();
+        while(high < n){
+            countMap[nums[high]]++;
+            while(countMap.size() > k){
+                countMap[nums[low]]--;
+                if(countMap[nums[low]] == 0) countMap.erase(nums[low]);
+                low++;
             }
-            count += r-l+1;
-            r++;
+            count += (high-low+1);
+            high++;
         }
         return count;
     }
-    int subarraysWithKDistinct(vector<int>& nums, int k){
-        return subarraysWithAtleastKDistinct(nums,k) - subarraysWithAtleastKDistinct(nums,k-1);
+    int subarraysWithKDistinct(vector<int>& nums, int k) {
+        return subarrays(nums,k) - subarrays(nums,k-1);
     }
 };
