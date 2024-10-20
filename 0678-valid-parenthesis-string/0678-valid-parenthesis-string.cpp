@@ -1,27 +1,14 @@
 class Solution {
 public:
     bool checkValidString(string s) {
-        int l = 0,star = 0;
-        for(char i : s){
-            if(i == '(') l++;
-            else if(i == '*') star++;
-            else if(i == ')'){
-                if(l>0) l--;
-                else if(star>0) star--;
-                else return false;
-            }
+        int mini = 0,maxi = 0;
+        for(auto &i : s){
+            if(i == '(') mini++, maxi++;
+            else if(i == ')') mini-- , maxi--;
+            else  mini -= 1, maxi += 1;
+            if(mini < 0) mini = 0;
+            if(maxi < 0) return false;
         }
-        reverse(s.begin(),s.end());
-        l=0,star=0;
-        for(char i : s){
-            if(i == ')') l++;
-            else if(i == '*') star++;
-            else if(i == '('){
-                if(l>0) l--;
-                else if(star>0) star--;
-                else return false;
-            }
-        }
-        return true;
+        return mini == 0;
     }
 };
