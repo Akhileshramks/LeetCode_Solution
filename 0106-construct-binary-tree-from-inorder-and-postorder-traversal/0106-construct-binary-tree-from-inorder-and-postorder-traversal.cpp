@@ -11,20 +11,26 @@
  */
 class Solution {
 public:
-    TreeNode* treeBuild(vector<int>& inorder, vector<int>& postorder,int is, int ie, int ps, int pe,unordered_map<int,int>& ind){
-        if(is>ie || ps>pe) return NULL;
+    void helper(vector<int>& inorder,unordered_map<int,int>& inMap){
+        int n = inorder.size();
+        for(int i = 0;i < n;i++){
+            inMap[inorder[i]] = i;
+        }
+    }
+    TreeNode* build(vector<int>& inorder,int is,int ie,vector<int>& postorder,int ps,int pe,unordered_map<int,int>& inMap){
+        if(is > ie || ps > pe) return NULL;
         TreeNode* root = new TreeNode(postorder[pe]);
-        int curr_ind = ind[postorder[pe]];
-        int n = curr_ind - is;
-        root -> left = treeBuild(inorder,postorder,is,curr_ind-1,ps,ps+n-1,ind);
-        root -> right = treeBuild(inorder,postorder,curr_ind+1,ie,ps+n,pe-1,ind);
+        int ind = inMap[postorder[pe]];
+        root->left = build(inorder,is,ind-1,postorder,ps,ps+ind-is-1,inMap);
+        root->right = build(inorder,ind+1,ie,postorder,ps+ind-is,pe-1,inMap);
         return root;
     }
     TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
-        unordered_map<int,int> ind;
-        if(inorder.size() != postorder.size()) return NULL;
+        unordered_map<int,int> inMap;
+        helper(inorder,inMap);
         int n = inorder.size();
-        for(int i = 0;i < n;i++) ind[inorder[i]] = i;
-        return treeBuild(inorder,postorder,0,n-1,0,n-1,ind);
+        int m = inorder.size();
+        if(n!=m) return NULL;
+        return build(inorder,0,n-1,postorder,0,n-1,inMap);
     }
 };
