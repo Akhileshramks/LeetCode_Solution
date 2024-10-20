@@ -12,7 +12,7 @@
 class Solution {
 public:
     bool isValid(TreeNode* root,long minimum,long maximum){
-        if(root == NULL) return true;
+        if(!root) return true;
         if(root->val <= minimum || root->val >= maximum) return false;
         return isValid(root->left,minimum,root->val) && isValid(root->right,root->val,maximum);
     }
