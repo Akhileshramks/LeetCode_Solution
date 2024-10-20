@@ -11,20 +11,15 @@
  */
 class Solution {
 public:
-    map<int,int> rightView;
-    void rightSide(TreeNode* root,int level){
-        if(root == nullptr) return;
-        rightView[level] = root->val;
-        rightSide(root->left,level+1);
-        rightSide(root->right,level+1);
+    void rightRecursion(TreeNode* root,int level,vector<int>& res){
+        if(root == NULL) return;
+        if(level == res.size()) res.push_back(root->val);
+        rightRecursion(root->right,level+1,res);
+        rightRecursion(root->left,level+1,res);
     }
-
     vector<int> rightSideView(TreeNode* root) {
-        rightSide(root,0);
-        vector<int> result;
-        for(auto i : rightView){
-            result.push_back(i.second);
-        }
-        return result;
+        vector<int> res;
+        rightRecursion(root,0,res);
+        return res;
     }
 };
