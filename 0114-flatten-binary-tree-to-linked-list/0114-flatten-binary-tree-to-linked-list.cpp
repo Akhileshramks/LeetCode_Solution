@@ -11,32 +11,17 @@
  */
 class Solution {
 public:
-    void flatten_optimised(TreeNode* root) {
-        TreeNode* curr = root;
-        while(curr){
-            if(curr ->left){
-                TreeNode* prev = curr->left;
-                while(prev->right){
-                    prev = prev->right;
-                }
-                prev->right = curr->right;
-                curr->right = curr->left;
-                curr->left = NULL;
+    void flatten(TreeNode* root) {
+        TreeNode* current = root;
+        while(current){
+            if(current->left){
+                TreeNode* prev = current->left;
+                while(prev->right) prev = prev->right;
+                prev->right = current->right;
+                current->right = current->left;
+                current->left = NULL;
             }
-            curr = curr->right;
-        }
-    }
-    void flatten(TreeNode* root){
-        if(root == NULL) return;
-        stack<TreeNode*> st;
-        st.push(root);
-        while(!st.empty()){
-            TreeNode* node = st.top();
-            st.pop();
-            if(node->right) st.push(node->right);
-            if(node->left) st.push(node->left);
-            if(!st.empty()) node->right = st.top();
-            node->left = NULL;
+            current = current->right;
         }
     }
 };
