@@ -10,34 +10,31 @@
  */
 class Solution {
 public:
-    ListNode* rotate(ListNode* head){
-        ListNode* prev = nullptr;
-        ListNode* current = head;
-        while(current){
-            ListNode* nxt = current->next;
-            current->next = prev;
-            prev = current;
-            current = nxt;
+    ListNode* reverse(ListNode* head){
+        ListNode* temp = head;
+        ListNode* prev = NULL;
+        while(temp){
+            ListNode* nxt = temp->next;
+            temp->next = prev;
+            prev = temp;
+            temp = nxt;
         }
         return prev;
     }
     bool isPalindrome(ListNode* head) {
+        int len = 0;
         ListNode* slow = head;
         ListNode* fast = head;
         while(fast && fast->next){
             fast = fast->next->next;
             slow = slow->next;
         }
-        ListNode* first = head;
-        ListNode* second = rotate(slow);
-        while(second){
-            if(first && second && first->val==second->val){
-                first = first->next;
-                second = second->next;
-            }
-            else{
-                return false;
-            }
+        slow = reverse(slow);
+        ListNode* start = head;
+        while(slow){
+            if(slow->val != start->val)return false;
+            slow = slow->next;
+            start = start->next;
         }
         return true;
     }
