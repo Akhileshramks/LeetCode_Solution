@@ -11,12 +11,13 @@
  */
 class Solution {
 public:
-    bool isSimilar(TreeNode* node1,TreeNode* node2){
-        if(node1 == NULL && node2 == NULL) return true;
-        else if(node1 == NULL || node2 == NULL) return false;
-        return(node1->val == node2->val && isSimilar(node1->left,node2->right) && isSimilar(node1->right,node2->left));
+    bool isSame(TreeNode* leftTree,TreeNode* rightTree){
+        if(leftTree == NULL && rightTree == NULL ) return true;
+        else if(leftTree == NULL || rightTree == NULL) return false;
+        return (leftTree->val == rightTree->val && isSame(leftTree->left,rightTree->right) && isSame(leftTree->right,rightTree->left));
     }
     bool isSymmetric(TreeNode* root) {
-        return isSimilar(root->left,root->right);
+        if(!root) return true;
+        return isSame(root->left,root->right);
     }
 };
