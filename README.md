@@ -216,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0127-word-ladder](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0127-word-ladder) |
 | [0141-linked-list-cycle](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0347-top-k-frequent-elements) |
@@ -687,6 +688,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0141-linked-list-cycle](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0237-delete-node-in-a-linked-list) |
@@ -717,6 +719,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0155-min-stack) |
 | [0295-find-median-from-data-stream](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -1160,5 +1163,6 @@ A collection of LeetCode questions to ace the coding interview!
 ## Doubly-Linked List
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0146-lru-cache) |
 | [0432-all-oone-data-structure](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0432-all-oone-data-structure) |
 <!---LeetCode Topics End-->
