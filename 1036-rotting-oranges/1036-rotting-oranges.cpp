@@ -1,37 +1,41 @@
 class Solution {
 public:
-
     int orangesRotting(vector<vector<int>>& grid) {
-        queue<vector<int>> q;
+        queue<pair<int,int>> q;
         int n = grid.size();
-        int cols = grid[0].size();
-        for(int i = 0 ;i<n;i++){
-            for(int j = 0;j<cols;j++){
-                if(grid[i][j] == 2){
-                    q.push({i,j,0});
-                }
+        int m = grid[0].size();
+        for(int i = 0;i < n;i++){
+            for(int j =0;j<m;j++){
+                if(grid[i][j] == 2) q.push({i,j});
             }
         }
-        int maxi = 0;
+        int count = 0;
+        vector<pair<int,int>> coordinates = {{0,-1},{-1,0},{1,0},{0,1}};
         while(!q.empty()){
-            auto p = q.front();
-            q.pop();
-            vector<pair<int,int>> m = {{0,1},{0,-1},{1,0},{-1,0}};
-            for(auto x : m){
-                int xx = p[0] + x.first;
-                int yy = p[1] + x.second;
-                if(xx>=0 && xx<n && yy>=0 && yy<cols && grid[xx][yy] == 1){
-                    grid[xx][yy] = 2;
-                    q.push({xx,yy,p[2]+1});
-                    maxi = max(maxi,p[2]+1);
+            int noOfNodes = q.size();
+            count++;
+            for(int i =0;i < noOfNodes;i++){
+                pair<int,int> qFront = q.front();
+                int x = qFront.first;
+                int y = qFront.second;
+                q.pop();
+                for(auto c : coordinates){
+                    int dx = c.first;
+                    int dy = c.second;
+                    int xx = x + dx;
+                    int yy = y + dy;
+                    if(xx >= 0 && xx < n && yy >= 0 && yy < m && grid[xx][yy] == 1){
+                        grid[xx][yy] = 2;
+                        q.push({xx,yy});
+                    }
                 }
             }
         }
-        for(int i = 0 ;i<n;i++){
-            for(int j = 0;j<cols;j++){
+        for(int i = 0; i < n;i++){
+            for(int j = 0;j < m;j++){
                 if(grid[i][j] == 1) return -1;
             }
         }
-        return maxi;
+        return count > 0 ? count-1 : 0;
     }
 };
