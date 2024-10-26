@@ -40,11 +40,13 @@ public:
         int m = 0;
         for(auto i : connections){
             if(graph.find(i[0]) != graph.find(i[1])){
-                m++;
                 graph.union_find(i[0],i[1]);
             }
         }
-        if(n-1<=g) return n-1-m;
-        return -1;
+        for(int i = 0; i < n;i++){
+            if(graph.find(i) == i) m++;
+        }
+        if(n-1 > g) return -1;
+        return m-1;
     }
 };
