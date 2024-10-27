@@ -1,37 +1,40 @@
 class Solution {
-public:
-    int step = 0;
-    void dfs(vector<vector<int>>& adj,int node, int parent, vector<int> &way, vector<int> &curr,vector<int> &visited,vector<vector<int>> &res){
-        visited[node] = true;
-        step++;
-        curr[node] = step;
-        way[node] = step;
-        for(int neighbour : adj[node]){
-            if(neighbour == parent) continue;
-            if(!visited[neighbour]){
-                
-                dfs(adj,neighbour,node,way,curr,visited,res);
-                way[node] = min(way[node] , way[neighbour]);
-                if(curr[node] < way[neighbour]){
+private:
+    int time = 0;
+    vector<vector<int>> res;
+    void dfs(int node,int parent,vector<int> &tin,vector<int> &low,vector<vector<int>> &adj,vector<int>& visited){
+        visited[node] = 1;
+        tin[node] = low[node] = time;
+        time++;
+        for(int &neighbour : adj[node]){
+            if(parent == neighbour) continue;
+            if(visited[neighbour] == 0){
+                dfs(neighbour,node,tin,low,adj,visited);
+                low[node] = min(low[node],low[neighbour]);
+                if(tin[node] < low[neighbour]){
                     res.push_back({node,neighbour});
                 }
             }
             else{
-                way[node] = min(way[node] , way[neighbour]);
+                low[node] = min(low[node],low[neighbour]);
             }
         }
     }
+public:
     vector<vector<int>> criticalConnections(int n, vector<vector<int>>& connections) {
         vector<vector<int>> adj(n);
-        for(auto i : connections){
+        for(auto &i : connections){
             adj[i[0]].push_back(i[1]);
             adj[i[1]].push_back(i[0]);
         }
-        vector<int> curr(n,-1);
-        vector<int> way(n,-1);
-        vector<int> visited(n,false);
-        vector<vector<int>> res;
-        dfs(adj,0,-1,way,curr,visited,res);
+        vector<int> tin(n);
+        vector<int> low(n);
+        vector<int> visited(n,0);
+        for(int i = 0;i < n;i++){
+            if(!visited[i]){
+                dfs(i,-1,tin,low,adj,visited);
+            }
+        }
         return res;
     }
 };
