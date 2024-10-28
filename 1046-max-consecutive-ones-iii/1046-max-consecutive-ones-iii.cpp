@@ -8,7 +8,7 @@ public:
         int res = INT_MIN;
         while(right < n){
             if(nums[right] == 0) flip--;
-            if(flip < 0 && left < n){
+            while(flip < 0 && left < n){
                 if(nums[left] == 0) flip++;
                 left++;
             }
