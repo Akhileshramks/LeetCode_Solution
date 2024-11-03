@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0686-repeated-string-match](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0686-repeated-string-match) |
 | [0721-accounts-merge](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0721-accounts-merge) |
 | [0726-number-of-atoms](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0726-number-of-atoms) |
+| [0812-rotate-string](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0812-rotate-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1122-longest-duplicate-substring](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1122-longest-duplicate-substring) |
@@ -1183,6 +1184,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0214-shortest-palindrome](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0214-shortest-palindrome) |
 | [0686-repeated-string-match](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0686-repeated-string-match) |
+| [0812-rotate-string](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0812-rotate-string) |
 | [1508-longest-happy-prefix](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1508-longest-happy-prefix) |
 ## Hash Function
 |  |
