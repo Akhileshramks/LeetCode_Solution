@@ -1,24 +1,40 @@
 class Solution {
 public:
     bool canBeValid(string s, string locked) {
-        int leftBrack = 0,noOnes = 0,noZeros = 0;
+
         int n = locked.size();
-        stack<int> openBracket,anyBracket;
+        if (n % 2 == 1) {
+            return false;
+        }
+        int openBracket = 0,anyBracket = 0;
         for(int i=0;i<n;i++){
-            if(locked[i] == '0') anyBracket.push(i);
-            else if(s[i] == '(') openBracket.push(i);
+            if(locked[i] == '0') anyBracket++;
+            else if(s[i] == '(') openBracket++;
             else{
-                if(!openBracket.empty()) openBracket.pop();
-                else if(!anyBracket.empty()) anyBracket.pop();
+                if(openBracket) openBracket--;
+                else if(anyBracket) anyBracket--;
                 else return false;
             }
         }
         
-        while(!openBracket.empty() && !anyBracket.empty() && openBracket.top() < anyBracket.top()){
-            openBracket.pop();
-            anyBracket.pop();
+        int closeBracket = 0;
+        for(int i = n-1;i>=0;i--){
+            if(locked[i] == '0'){
+                closeBracket++;
+                anyBracket--;
+            }
+            else if (s[i] == '('){
+                closeBracket--;
+                openBracket--;
+            }else if(s[i] == ')'){
+                closeBracket++;
+            }
+            if(closeBracket < 0){
+                return false;
+            }
+            if(openBracket == 0 && anyBracket == 0) break;
         }
-        if(!openBracket.empty()) return false;
-        return anyBracket.size()%2 == 0;
+        if(openBracket > 0) return false;
+        return true;
     }
 };
