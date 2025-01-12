@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2157-smallest-k-length-subsequence-with-occurrences-of-a-letter](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2157-smallest-k-length-subsequence-with-occurrences-of-a-letter) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
+| [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2502-sort-the-people](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2502-sort-the-people) |
 | [2580-circular-sentence](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2580-circular-sentence) |
@@ -114,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2157-smallest-k-length-subsequence-with-occurrences-of-a-letter](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2157-smallest-k-length-subsequence-with-occurrences-of-a-letter) |
+| [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2227-sum-of-subarray-ranges](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2227-sum-of-subarray-ranges) |
 | [2846-robot-collisions](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2846-robot-collisions) |
 ## Greedy
@@ -145,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2157-smallest-k-length-subsequence-with-occurrences-of-a-letter](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2157-smallest-k-length-subsequence-with-occurrences-of-a-letter) |
+| [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2716-prime-subtraction-operation](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2716-prime-subtraction-operation) |
