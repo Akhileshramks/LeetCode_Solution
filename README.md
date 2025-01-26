@@ -941,6 +941,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1753-path-with-minimum-effort](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1753-path-with-minimum-effort) |
 | [2035-count-sub-islands](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2035-count-sub-islands) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
+| [2439-longest-cycle-in-a-graph](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2439-longest-cycle-in-a-graph) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2677-cousins-in-binary-tree-ii) |
 ## Binary Tree
@@ -1131,6 +1132,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2171-second-minimum-time-to-reach-destination) |
+| [2439-longest-cycle-in-a-graph](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2439-longest-cycle-in-a-graph) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2472-build-a-matrix-with-conditions) |
 | [2803-modify-graph-edge-weights](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2803-modify-graph-edge-weights) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3235-minimum-cost-to-convert-string-i) |
@@ -1152,6 +1154,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0210-course-schedule-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0210-course-schedule-ii) |
 | [0820-find-eventual-safe-states](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0820-find-eventual-safe-states) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2439-longest-cycle-in-a-graph](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2439-longest-cycle-in-a-graph) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2472-build-a-matrix-with-conditions) |
 ## Merge Sort
 |  |
