@@ -486,6 +486,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2716-prime-subtraction-operation](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2716-prime-subtraction-operation) |
 | [2727-number-of-senior-citizens](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2727-number-of-senior-citizens) |
 | [2755-extra-characters-in-a-string](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2755-extra-characters-in-a-string) |
+| [2764-maximum-number-of-fish-in-a-grid](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2846-robot-collisions](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2846-robot-collisions) |
 | [2854-decremental-string-concatenation](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2854-decremental-string-concatenation) |
@@ -837,6 +838,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2677-cousins-in-binary-tree-ii) |
+| [2764-maximum-number-of-fish-in-a-grid](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 ## Tree
 |  |
 | ------- |
@@ -946,6 +948,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2439-longest-cycle-in-a-graph](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2439-longest-cycle-in-a-graph) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2677-cousins-in-binary-tree-ii) |
+| [2764-maximum-number-of-fish-in-a-grid](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 ## Binary Tree
 |  |
 | ------- |
@@ -1112,6 +1115,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2132-convert-1d-array-into-2d-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2411-spiral-matrix-iv](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2411-spiral-matrix-iv) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2472-build-a-matrix-with-conditions) |
+| [2764-maximum-number-of-fish-in-a-grid](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 ## Quickselect
 |  |
 | ------- |
@@ -1222,6 +1226,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1753-path-with-minimum-effort](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1753-path-with-minimum-effort) |
 | [2035-count-sub-islands](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2035-count-sub-islands) |
+| [2764-maximum-number-of-fish-in-a-grid](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 ## Ordered Set
 |  |
 | ------- |
