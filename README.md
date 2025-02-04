@@ -454,6 +454,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1876-map-of-highest-peak](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1876-map-of-highest-peak) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1923-sentence-similarity-iii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1923-sentence-similarity-iii) |
+| [1927-maximum-ascending-subarray-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1940-maximum-xor-for-each-query](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1940-maximum-xor-for-each-query) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
