@@ -281,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2306-create-binary-tree-from-descriptions](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
+| [2434-design-a-number-container-system](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2434-design-a-number-container-system) |
 | [2502-sort-the-people](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2502-sort-the-people) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
@@ -731,6 +732,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1325-path-with-maximum-probability](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1325-path-with-maximum-probability) |
 | [1753-path-with-minimum-effort](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1753-path-with-minimum-effort) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
+| [2434-design-a-number-container-system](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2434-design-a-number-container-system) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2803-modify-graph-edge-weights](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2803-modify-graph-edge-weights) |
 ## Monotonic Queue
@@ -793,6 +795,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0859-design-circular-deque](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0859-design-circular-deque) |
 | [0937-online-stock-span](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0937-online-stock-span) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1497-design-a-stack-with-increment-operation) |
+| [2434-design-a-number-container-system](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2434-design-a-number-container-system) |
 ## Data Stream
 |  |
 | ------- |
@@ -1249,6 +1252,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0729-my-calendar-i](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0731-my-calendar-ii) |
 | [1017-odd-even-jump](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1017-odd-even-jump) |
+| [2434-design-a-number-container-system](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2434-design-a-number-container-system) |
 ## Brainteaser
 |  |
 | ------- |
