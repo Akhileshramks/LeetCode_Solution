@@ -6,8 +6,10 @@ public:
         cout<<currString<<endl;
         for(int i = 0;i < originalString.length();i++){
             if(!visited[i]){
+                currString.push_back(originalString[i]);
                 visited[i] = true;
-                recusionAllPossible(visited,currString + originalString[i],originalString);
+                recusionAllPossible(visited,currString,originalString);
+                currString.pop_back();
                 visited[i] = false;
             }
         }
