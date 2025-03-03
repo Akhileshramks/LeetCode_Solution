@@ -223,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2155-find-missing-observations](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2155-find-missing-observations) |
+| [2265-partition-array-according-to-given-pivot](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2411-spiral-matrix-iv](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2411-spiral-matrix-iv) |
 | [2645-pass-the-pillow](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2645-pass-the-pillow) |
@@ -481,6 +482,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2227-sum-of-subarray-ranges](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2227-sum-of-subarray-ranges) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
+| [2265-partition-array-according-to-given-pivot](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
@@ -601,6 +603,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1129-longest-string-chain](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1129-longest-string-chain) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1923-sentence-similarity-iii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1923-sentence-similarity-iii) |
+| [2265-partition-array-according-to-given-pivot](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2581-divide-players-into-teams-of-equal-skill) |
