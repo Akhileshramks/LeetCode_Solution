@@ -201,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0670-maximum-swap](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0670-maximum-swap) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1370-count-number-of-nice-subarrays) |
 | [1642-water-bottles](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1642-water-bottles) |
+| [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2155-find-missing-observations](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2155-find-missing-observations) |
 | [2645-pass-the-pillow](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2645-pass-the-pillow) |
