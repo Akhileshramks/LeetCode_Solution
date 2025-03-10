@@ -1,44 +1,25 @@
 class Solution {
 public:
-    bool isVowel(char i){
-        return (i == 'a' || i == 'e' || i == 'i' || i == 'o' || i == 'u');
+    long long countOfSubstrings(string word, int k){
+        return countOfAtleastSubstrings(word,k) - countOfAtleastSubstrings(word,k+1);
     }
-    long long countSubstring(string s,int k){
-        int VowelCount = 0;
+    long long countOfAtleastSubstrings(string word, int k) {
+        unordered_map<char, int> vowel = { {'a', 0}, {'e', 0}, {'i', 0}, {'o', 0}, {'u', 0} };
+        int consonants = 0;
+        int n = word.length();
+        int low = 0,high = 0;
         long long res = 0;
-        int i = 0;
-        int low = 0;
-        int n = s.length();
-        int consonant = 0;
-        unordered_map<char,int> mpp;
-        while(i < n){
-            if(isVowel(s[i])){
-                if(mpp.find(s[i]) == mpp.end()){
-                    VowelCount += 1;
-                }
-                mpp[s[i]] = i;
-            }
-            else{
-                consonant += 1;
-            }
-            while(VowelCount == 5 && consonant>=k){
-                res += n-i;
-                if(isVowel(s[low])){
-                    if(mpp[s[low]] == low){
-                        VowelCount--;
-                        mpp.erase(s[low]);
-                    }
-                }
-                else{
-                    consonant--;
-                }
+        while(high < n){
+            if(word[high] == 'a' || word[high] == 'e' || word[high] == 'i' || word[high] == 'o' || word[high] == 'u') vowel[word[high]]++;
+            else consonants++;
+            while(low < n && vowel['a'] > 0 && vowel['e'] > 0 && vowel['i'] > 0 && vowel['o'] > 0 && vowel['u'] > 0 && consonants >= k){
+                res += n - high;
+                if(word[low] == 'a' || word[low] == 'e' || word[low] == 'i' || word[low] == 'o' || word[low] == 'u') vowel[word[low]]--;
+                else consonants--;
                 low++;
             }
-            i++;
+            high++;
         }
         return res;
-    }
-    long long countOfSubstrings(string word, int k) {
-        return countSubstring(word,k) - countSubstring(word,k+1);
     }
 };
