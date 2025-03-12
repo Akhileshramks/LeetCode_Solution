@@ -1,13 +1,22 @@
 class Solution {
 public:
     int numberOfSubstrings(string s) {
+        int a = 0,b = 0,c = 0;
+        int low = 0,high = 0,res = 0;
         int n = s.size();
-        unordered_map<int,int> lastseen = {{0,-1},{1,-1},{2,-1}};
-        int count = 0;
-        for(int i=0;i<n;i++){
-            lastseen[s[i]-'a'] = i;
-            count+= (1 + min(lastseen[0],min(lastseen[1],lastseen[2])));
+        while(high < n){
+            if(s[high] == 'a') a++;
+            else if(s[high] == 'b') b++;
+            else if(s[high] == 'c') c++;
+            while(a > 0 && b > 0 && c > 0 && low < n){
+                res += (n - high);
+                if(s[low] == 'a') a--;
+                else if(s[low] == 'b') b--;
+                else if(s[low] == 'c') c--;
+                low++;
+            } 
+            high++;
         }
-        return count;
+        return res;
     }
 };
