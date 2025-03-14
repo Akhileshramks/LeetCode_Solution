@@ -12,7 +12,6 @@ public:
         sort( candies.begin(),candies.end());
         int low = 1,high = candies[n-1];
         int ans = 0;
-        //if(n == 1 &&) return candies[0];
         while(low <= high){
             int mid = low + (high - low)/2;
             if(mid != 0 && isPossible(candies,k,mid,n)){
@@ -23,6 +22,6 @@ public:
                 high = mid - 1;
             }
         }
-        return ans;
+        return high;
     }
 };
