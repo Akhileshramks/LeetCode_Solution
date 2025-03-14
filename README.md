@@ -442,6 +442,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1256-rank-transform-of-an-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1256-rank-transform-of-an-array) |
 | [1325-path-with-maximum-probability](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1325-path-with-maximum-probability) |
 | [1333-sort-the-jumbled-numbers](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1333-sort-the-jumbled-numbers) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1364-tuple-with-same-product](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1364-tuple-with-same-product) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1370-count-number-of-nice-subarrays) |
@@ -548,6 +549,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1046-max-consecutive-ones-iii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1122-longest-duplicate-substring](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1122-longest-duplicate-substring) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1646-kth-missing-positive-number) |
