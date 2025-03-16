@@ -2,10 +2,8 @@ class Solution {
 public:
     bool isPossible(vector<int>& ranks,int cars,long long target){
         int n = ranks.size();
-        for(int i = 0;i < n;i++){
-            int k = 0;
-            while(cars - k - 1 >=0 && 1ll* (k+1)*(k+1)*ranks[i] <= target) k++;
-            cars = cars - k;
+        for(int i = 0;i < n && cars > 0;i++){
+            cars -= static_cast<int>(sqrt(target/ranks[i]));
         }
         return cars <= 0;
     }
