@@ -3,7 +3,7 @@ public:
     bool isPossible(vector<int>& ranks,int cars,long long target){
         int n = ranks.size();
         for(int i = 0;i < n && cars > 0;i++){
-            cars -= static_cast<int>(sqrt(target/ranks[i]));
+            cars -= (int)sqrt(target/ranks[i]);
         }
         return cars <= 0;
     }
