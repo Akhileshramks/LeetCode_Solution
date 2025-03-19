@@ -327,6 +327,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2478-longest-nice-subarray](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2478-longest-nice-subarray) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
+| [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Array
 |  |
@@ -521,6 +522,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
+| [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3482-construct-string-with-minimum-cost](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3482-construct-string-with-minimum-cost) |
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3485-maximize-score-of-numbers-in-ranges) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -585,6 +587,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2055-describe-the-painting](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2055-describe-the-painting) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
+| [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Database
 |  |
 | ------- |
@@ -738,6 +741,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0239-sliding-window-maximum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0239-sliding-window-maximum) |
 | [0859-design-circular-deque](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0859-design-circular-deque) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -1063,6 +1067,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3394-minimum-array-end](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3394-minimum-array-end) |
+| [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Backtracking
 |  |
 | ------- |
