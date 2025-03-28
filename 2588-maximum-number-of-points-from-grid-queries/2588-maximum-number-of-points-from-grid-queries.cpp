@@ -44,8 +44,6 @@ public:
             result[pq.top().second] = res;
             pq.pop();
         }
-        
-        result[ind] = res;
         return result;
     }
 };
