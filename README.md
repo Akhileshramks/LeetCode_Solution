@@ -505,6 +505,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2665-minimum-time-to-repair-cars](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2665-minimum-time-to-repair-cars) |
@@ -622,6 +623,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2271-rearrange-array-elements-by-sign](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3195-separate-black-and-white-balls](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3195-separate-black-and-white-balls) |
@@ -663,6 +665,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2502-sort-the-people](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2502-sort-the-people) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -765,6 +768,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2434-design-a-number-container-system](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2434-design-a-number-container-system) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2803-modify-graph-edge-weights](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2803-modify-graph-edge-weights) |
 ## Monotonic Queue
 |  |
@@ -879,6 +883,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2171-second-minimum-time-to-reach-destination](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2677-cousins-in-binary-tree-ii) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2764-maximum-number-of-fish-in-a-grid) |
@@ -1165,6 +1170,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2132-convert-1d-array-into-2d-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2411-spiral-matrix-iv](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2411-spiral-matrix-iv) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2472-build-a-matrix-with-conditions) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 ## Quickselect
 |  |
@@ -1284,6 +1290,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1753-path-with-minimum-effort](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1753-path-with-minimum-effort) |
 | [2035-count-sub-islands](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2035-count-sub-islands) |
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2793-count-the-number-of-complete-components](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2793-count-the-number-of-complete-components) |
 ## Ordered Set
