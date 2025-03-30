@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0686-repeated-string-match](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0686-repeated-string-match) |
 | [0721-accounts-merge](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0721-accounts-merge) |
 | [0726-number-of-atoms](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0726-number-of-atoms) |
+| [0768-partition-labels](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0768-partition-labels) |
 | [0812-rotate-string](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0812-rotate-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0952-word-subsets](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0952-word-subsets) |
@@ -143,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0670-maximum-swap](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0670-maximum-swap) |
 | [0678-valid-parenthesis-string](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0678-valid-parenthesis-string) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0768-partition-labels](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0768-partition-labels) |
 | [0876-hand-of-straights](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0890-lemonade-change) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -258,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0721-accounts-merge](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0721-accounts-merge) |
 | [0726-number-of-atoms](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0726-number-of-atoms) |
+| [0768-partition-labels](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0768-partition-labels) |
 | [0876-hand-of-straights](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0876-hand-of-straights) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0906-walking-robot-simulation](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0906-walking-robot-simulation) |
@@ -615,6 +618,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0455-assign-cookies](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0455-assign-cookies) |
 | [0567-permutation-in-string](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0567-permutation-in-string) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0768-partition-labels](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0768-partition-labels) |
 | [0908-middle-of-the-linked-list](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0908-middle-of-the-linked-list) |
 | [1129-longest-string-chain](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1129-longest-string-chain) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1798-max-number-of-k-sum-pairs) |
