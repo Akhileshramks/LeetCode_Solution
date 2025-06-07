@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3447-clear-digits](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3447-clear-digits) |
 | [3451-string-compression-iii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3451-string-compression-iii) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3455-minimum-length-of-string-after-operations) |
@@ -123,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2227-sum-of-subarray-ranges](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2227-sum-of-subarray-ranges) |
 | [2846-robot-collisions](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2846-robot-collisions) |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3447-clear-digits](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3447-clear-digits) |
 ## Greedy
 |  |
@@ -161,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2716-prime-subtraction-operation](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2716-prime-subtraction-operation) |
 | [3195-separate-black-and-white-balls](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3195-separate-black-and-white-balls) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3485-maximize-score-of-numbers-in-ranges) |
 ## Monotonic Stack
 |  |
@@ -305,6 +308,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
@@ -776,6 +780,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2803-modify-graph-edge-weights](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2803-modify-graph-edge-weights) |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Monotonic Queue
 |  |
 | ------- |
