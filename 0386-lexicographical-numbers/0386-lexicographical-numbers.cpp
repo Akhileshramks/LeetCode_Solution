@@ -1,20 +1,16 @@
 class Solution {
 public:
     vector<int> lexicalOrder(int n) {
-        int i = 1;
         vector<int> res;
-
-        while(i<=n && res.size() < n){
-            res.push_back(i);
-            if(i*10 <= n ){
-                i = (i*10)-1;
+        int currNum = 1;
+        while(res.size() < n){
+            res.push_back(currNum);
+            if(currNum * 10 <= n){
+                currNum *= 10;
+            }else{
+                while(currNum % 10 == 9 || currNum + 1 > n) currNum /= 10;
+                currNum += 1;
             }
-            else {
-                while((i == n) || i % 10 == 9 ){
-                    i = i/10;
-                }
-            }
-            i+=1;
         }
         return res;
     }
