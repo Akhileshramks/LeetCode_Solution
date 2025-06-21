@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
+| [3360-minimum-deletions-to-make-string-k-special](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3447-clear-digits](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3447-clear-digits) |
 | [3451-string-compression-iii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3451-string-compression-iii) |
@@ -165,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2716-prime-subtraction-operation](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2716-prime-subtraction-operation) |
 | [3195-separate-black-and-white-balls](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3195-separate-black-and-white-balls) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3360-minimum-deletions-to-make-string-k-special](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3485-maximize-score-of-numbers-in-ranges) |
 ## Monotonic Stack
@@ -311,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
+| [3360-minimum-deletions-to-make-string-k-special](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3455-minimum-length-of-string-after-operations) |
@@ -686,6 +689,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2699-count-the-number-of-fair-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2846-robot-collisions](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2846-robot-collisions) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3360-minimum-deletions-to-make-string-k-special](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3485-maximize-score-of-numbers-in-ranges) |
 ## Dynamic Programming
 |  |
@@ -1273,6 +1277,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3360-minimum-deletions-to-make-string-k-special](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 ## Binary Search Tree
