@@ -40,5 +40,9 @@ y > x =>
 
 Case 3 :
  y == x no issues
+
+
+ Time Complexity : O(n) + O(C)* O(C) => O(n + C^2)
+ Space Complexity : O(C)
 */
 
