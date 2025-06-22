@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2163-kth-distinct-string-in-an-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
+| [2260-divide-a-string-into-groups-of-size-k](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2502-sort-the-people](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2502-sort-the-people) |
@@ -239,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2155-find-missing-observations](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2155-find-missing-observations) |
+| [2260-divide-a-string-into-groups-of-size-k](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2411-spiral-matrix-iv](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2411-spiral-matrix-iv) |
