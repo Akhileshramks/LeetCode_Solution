@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1818-maximum-score-from-removing-substrings](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1923-sentence-similarity-iii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1923-sentence-similarity-iii) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2076-sum-of-digits-of-string-after-convert) |
+| [2140-longest-subsequence-repeated-k-times](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2157-smallest-k-length-subsequence-with-occurrences-of-a-letter](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2157-smallest-k-length-subsequence-with-occurrences-of-a-letter) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
@@ -161,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2140-longest-subsequence-repeated-k-times](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2157-smallest-k-length-subsequence-with-occurrences-of-a-letter](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2157-smallest-k-length-subsequence-with-occurrences-of-a-letter) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
@@ -1113,6 +1115,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0494-target-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0494-target-sum) |
 | [1160-letter-tile-possibilities](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1160-letter-tile-possibilities) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
+| [2140-longest-subsequence-repeated-k-times](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 ## Suffix Array
 |  |
@@ -1123,6 +1126,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0204-count-primes) |
+| [2140-longest-subsequence-repeated-k-times](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 ## Number Theory
 |  |
@@ -1282,6 +1286,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1396-count-servers-that-communicate](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1396-count-servers-that-communicate) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1786-count-the-number-of-consistent-strings) |
+| [2140-longest-subsequence-repeated-k-times](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2494-sum-of-prefix-scores-of-strings) |
