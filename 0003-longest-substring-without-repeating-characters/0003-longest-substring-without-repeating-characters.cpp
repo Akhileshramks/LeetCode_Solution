@@ -4,15 +4,14 @@ public:
         int n = s.size();
         int left = 0, right = 0;
         int ans = 0;
-        unordered_map<char,int> freqCount;
+        unordered_map<char,int> lastSeen;
         
         for(right = 0; right < n; right++){
-            freqCount[s[right]]++;
-            while(freqCount[s[right]] > 1){
-                freqCount[s[left]]--;
-                left++;
+            if(lastSeen.find(s[right]) != lastSeen.end() && lastSeen[s[right]] >= left){
+                left = lastSeen[s[right]] + 1;
             }
             ans = max(ans, right - left + 1);
+            lastSeen[s[right]] = right;
         }
         return ans;
     }
