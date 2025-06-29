@@ -9,7 +9,7 @@ public:
         while(right < n){
             int target = nums[right];
             sum += target;
-            while(left <= right && (long long)(right - left + 1) * target - sum > k){
+            if(left <= right && (long long)(right - left + 1) * target - sum > k){
                 sum -= nums[left];
                 left++;
             }
