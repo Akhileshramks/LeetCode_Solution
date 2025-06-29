@@ -8,7 +8,7 @@ public:
         int ans = 0;
         for(right = 0;right < n;right++){
             if(nums[right] == 0) zeroCount++;
-            while(zeroCount > k && left <= right){
+            if(zeroCount > k && left <= right){
                 if(nums[left] == 0) zeroCount--;
                 left++;
             }
