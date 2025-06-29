@@ -6,7 +6,7 @@ public:
         int left = 0, right = 0, ans = 0;
         while(right < n){
             sum += nums[right];
-            while((right - left + 1) - sum > k){
+            if((right - left + 1) - sum > k){
                 sum -= nums[left];
                 left++;
             }
