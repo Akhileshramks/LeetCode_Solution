@@ -271,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0496-next-greater-element-i](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0567-permutation-in-string) |
+| [0594-longest-harmonious-subsequence](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0594-longest-harmonious-subsequence) |
 | [0621-task-scheduler](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -338,6 +339,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0239-sliding-window-maximum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0567-permutation-in-string) |
+| [0594-longest-harmonious-subsequence](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0594-longest-harmonious-subsequence) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0713-subarray-product-less-than-k](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0713-subarray-product-less-than-k) |
 | [0940-fruit-into-baskets](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0940-fruit-into-baskets) |
@@ -429,6 +431,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0540-single-element-in-a-sorted-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0560-subarray-sum-equals-k) |
+| [0594-longest-harmonious-subsequence](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0594-longest-harmonious-subsequence) |
 | [0621-task-scheduler](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0673-number-of-longest-increasing-subsequence) |
@@ -686,6 +689,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0435-non-overlapping-intervals](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0455-assign-cookies) |
 | [0539-minimum-time-difference](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0539-minimum-time-difference) |
+| [0594-longest-harmonious-subsequence](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0594-longest-harmonious-subsequence) |
 | [0621-task-scheduler](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0721-accounts-merge](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0721-accounts-merge) |
@@ -1294,6 +1298,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0169-majority-element](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0347-top-k-frequent-elements) |
+| [0594-longest-harmonious-subsequence](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0594-longest-harmonious-subsequence) |
 | [0621-task-scheduler](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0621-task-scheduler) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0948-sort-an-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0948-sort-an-array) |
