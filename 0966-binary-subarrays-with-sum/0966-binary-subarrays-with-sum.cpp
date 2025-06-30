@@ -1,21 +1,20 @@
 class Solution {
 public:
-    int numSunarraysWithAtmostSum(vector<int>&nums,int goal){
-        int sum = 0;
-        int n = nums.size();
+    int numSubarrayWithSumAtleastGoal(vector<int>& nums, int goal){
+        int l = 0,r = 0,n = nums.size();
         int count = 0;
-        int l = 0;
-        for(int i = 0;i < n;i++){
-            sum += nums[i];
-            while(l <= i && sum > goal){
+        int sum = 0;
+        for(r = 0;r < n;r++){
+            sum += nums[r];
+            while(sum > goal && l <= r){
                 sum -= nums[l];
                 l++;
             }
-            count += (i-l+1);
+            count += (r - l + 1);
         }
         return count;
     }
     int numSubarraysWithSum(vector<int>& nums, int goal) {
-        return (numSunarraysWithAtmostSum(nums,goal) - numSunarraysWithAtmostSum(nums,goal-1));
+        return numSubarrayWithSumAtleastGoal(nums, goal) - numSubarrayWithSumAtleastGoal(nums, goal - 1);
     }
 };
