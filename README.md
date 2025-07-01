@@ -172,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2716-prime-subtraction-operation](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2716-prime-subtraction-operation) |
 | [3195-separate-black-and-white-balls](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3195-separate-black-and-white-balls) |
+| [3241-divide-array-into-arrays-with-max-difference](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
@@ -556,6 +557,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2846-robot-collisions](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2846-robot-collisions) |
 | [2854-decremental-string-concatenation](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2854-decremental-string-concatenation) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3235-minimum-cost-to-convert-string-i) |
+| [3241-divide-array-into-arrays-with-max-difference](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
@@ -720,6 +722,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2846-robot-collisions](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2846-robot-collisions) |
+| [3241-divide-array-into-arrays-with-max-difference](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3485-maximize-score-of-numbers-in-ranges) |
