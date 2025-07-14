@@ -219,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0592-fraction-addition-and-subtraction](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0592-fraction-addition-and-subtraction) |
 | [0670-maximum-swap](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0670-maximum-swap) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1370-count-number-of-nice-subarrays) |
+| [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1642-water-bottles](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1642-water-bottles) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
@@ -856,6 +857,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0725-split-linked-list-in-parts](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0725-split-linked-list-in-parts) |
 | [0859-design-circular-deque](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0859-design-circular-deque) |
 | [0908-middle-of-the-linked-list](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0908-middle-of-the-linked-list) |
+| [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1484-linked-list-in-binary-tree](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/1484-linked-list-in-binary-tree) |
 | [2411-spiral-matrix-iv](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2411-spiral-matrix-iv) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
