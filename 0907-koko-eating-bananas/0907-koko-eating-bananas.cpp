@@ -1,27 +1,25 @@
 class Solution {
 public:
-    long eatspeed(vector<int>& piles,int m){
-        long count = 0;
-        for(auto i : piles){
-            count+=(i+m-1)/m;
+    bool isPossible(vector<int>& piles,int speed,int h){
+        int count = 0;
+        for(int i = 0;i < piles.size(); i++){
+            count += (piles[i] + speed - 1)/speed;
+            if(count > h) return false;
         }
-        return count;
+        return true;
     }
     int minEatingSpeed(vector<int>& piles, int h) {
-        long maxi = *max_element(piles.begin(),piles.end());
-        int n = piles.size();
-        long low = 1;
-        long high = maxi;
-        long mid;
-        while(low<=high){
-            mid = low + (high-low)/2;
-            if(eatspeed(piles,mid)<=h){
-                high = mid-1;
-            }
-            else{
-                low = mid+1;
+        int low = 1;
+        int high = *max_element(piles.begin(), piles.end());
+        while(low <= high){
+            int mid = low + (high - low)/2;
+            if(isPossible(piles,mid,h)){
+                high = mid -1;
+            }else{
+                low = mid + 1;
             }
         }
         return low;
     }
+
 };
