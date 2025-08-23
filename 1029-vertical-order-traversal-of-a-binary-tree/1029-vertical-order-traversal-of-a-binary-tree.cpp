@@ -12,30 +12,27 @@
 class Solution {
 public:
     vector<vector<int>> verticalTraversal(TreeNode* root) {
-        vector<vector<int>> res;
-        queue<pair<TreeNode*,pair<int,int>>> q;
         map<int,map<int,multiset<int>>> levelOrder;
-        q.push({root,{0,0}});
+        queue<pair<int,pair<int,TreeNode*>>> q;
+        q.push({0,{0,root}});
         while(!q.empty()){
             int n = q.size();
-            for(int i = 0; i < n; i++){
-                pair<TreeNode*,pair<int,int>> qFront = q.front();
-                TreeNode* node = qFront.first;
-                int x = qFront.second.first;
-                int y = qFront.second.second;
+            for(int i = 0;i < n;i++){
+                auto front = q.front();
                 q.pop();
-                levelOrder[y][x].insert(node->val);
-                if(node->left) q.push({node->left,{x+1,y-1}});
-                if(node->right) q.push({node->right,{x+1,y+1}});
+                levelOrder[front.second.first][front.first].insert(front.second.second->val);
+                if(front.second.second->left) q.push({front.first + 1,{front.second.first - 1,front.second.second->left}});
+                if(front.second.second->right) q.push({front.first + 1,{front.second.first + 1,front.second.second->right}});
             }
         }
-        for(auto & i : levelOrder){
-            vector<int> level;
-            for(auto &j : i.second){
-                level.insert(level.end(),j.second.begin(),j.second.end());
+        vector<vector<int>> ans;
+        for(auto i : levelOrder){
+            vector<int> intermediate;
+            for(auto j : i.second){
+                for(auto k : j.second) intermediate.push_back(k);
             }
-            res.push_back(level);
+            ans.push_back(intermediate);
         }
-        return res;
+        return ans;
     }
 };
