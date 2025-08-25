@@ -236,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0054-spiral-matrix](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0059-spiral-matrix-ii) |
+| [0498-diagonal-traverse](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0498-diagonal-traverse) |
 | [0592-fraction-addition-and-subtraction](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0592-fraction-addition-and-subtraction) |
 | [0735-asteroid-collision](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0735-asteroid-collision) |
 | [0906-walking-robot-simulation](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0906-walking-robot-simulation) |
@@ -430,6 +431,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0493-reverse-pairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0496-next-greater-element-i) |
+| [0498-diagonal-traverse](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0498-diagonal-traverse) |
 | [0503-next-greater-element-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0503-next-greater-element-ii) |
 | [0518-coin-change-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0518-coin-change-ii) |
 | [0539-minimum-time-difference](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0539-minimum-time-difference) |
@@ -1217,6 +1219,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0130-surrounded-regions](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0240-search-a-2d-matrix-ii) |
+| [0498-diagonal-traverse](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0498-diagonal-traverse) |
 | [0542-01-matrix](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0733-flood-fill) |
 | [0794-swim-in-rising-water](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0794-swim-in-rising-water) |
