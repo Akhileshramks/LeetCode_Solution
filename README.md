@@ -574,6 +574,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3485-maximize-score-of-numbers-in-ranges) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
+| [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 ## Binary Search
 |  |
 | ------- |
@@ -802,6 +803,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2755-extra-characters-in-a-string](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2755-extra-characters-in-a-string) |
 | [2854-decremental-string-concatenation](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2854-decremental-string-concatenation) |
 | [3482-construct-string-with-minimum-cost](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3482-construct-string-with-minimum-cost) |
+| [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 ## Queue
 |  |
 | ------- |
@@ -1190,6 +1192,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0070-climbing-stairs](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0070-climbing-stairs) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0241-different-ways-to-add-parentheses) |
+| [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 ## Combinatorics
 |  |
 | ------- |
@@ -1242,6 +1245,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2472-build-a-matrix-with-conditions](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2472-build-a-matrix-with-conditions) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2764-maximum-number-of-fish-in-a-grid) |
+| [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 ## Quickselect
 |  |
 | ------- |
