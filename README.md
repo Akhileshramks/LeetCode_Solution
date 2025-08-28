@@ -575,6 +575,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
+| [3748-sort-matrix-by-diagonals](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3748-sort-matrix-by-diagonals) |
 ## Binary Search
 |  |
 | ------- |
@@ -736,6 +737,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3485-maximize-score-of-numbers-in-ranges) |
+| [3748-sort-matrix-by-diagonals](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3748-sort-matrix-by-diagonals) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -1246,6 +1248,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
+| [3748-sort-matrix-by-diagonals](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3748-sort-matrix-by-diagonals) |
 ## Quickselect
 |  |
 | ------- |
