@@ -230,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2645-pass-the-pillow](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2645-pass-the-pillow) |
 | [2716-prime-subtraction-operation](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2716-prime-subtraction-operation) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
+| [3279-alice-and-bob-playing-flower-game](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3279-alice-and-bob-playing-flower-game) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 ## Simulation
 |  |
