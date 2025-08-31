@@ -1,36 +1,31 @@
 class Solution {
 public:
     vector<vector<int>> updateMatrix(vector<vector<int>>& mat) {
-        queue<pair<pair<int,int>,int>> q;
-        int n = mat.size();
-        int m = mat[0].size();
-
-        vector<vector<bool>> visited(n,vector<bool>(m,false));
-        vector<vector<int>> result(n,vector<int>(m,0));
-        for(int i = 0;i<n;i++)
-            for(int j =0;j<m;j++)
-                if(mat[i][j] == 0){
-                    q.push({{i,j},0});
-                    visited[i][j] = true;
-                }
-                    
-        vector<pair<int,int>> coordinates = {{0,1},{0,-1},{1,0},{-1,0}};
-        while(!q.empty()){
-            auto p = q.front();
-            int x = p.first.first;
-            int y = p.first.second;
-            int d = p.second;
-            result[x][y] = d;
-            q.pop();
-            for(auto & [dx,dy] : coordinates){
-                int xx = x + dx;
-                int yy = y + dy;
-                if(xx>=0 && xx<n && yy>=0 && yy<m && !visited[xx][yy]){
-                    q.push({{xx,yy},d+1});
-                    visited[xx][yy] = true;
+        queue<pair<int,int>> q;
+        int m = mat.size();
+        int n = mat[0].size();
+        vector<vector<int>> dist(m,vector<int>(n,-1));
+        for(int r = 0;r < m;r++){
+            for(int c = 0;c < n;c++){
+                if(mat[r][c] == 0){
+                    q.push({r,c});
+                    dist[r][c] = 0;
                 }
             }
         }
-        return result;
+        vector<vector<int>> coordinates = {{0,1},{1,0},{0,-1},{-1,0}};
+        while(!q.empty()){
+            auto [x,y] = q.front();
+            q.pop();
+            for(int k = 0;k < 4;k++){
+                int dx = x + coordinates[k][0];
+                int dy = y + coordinates[k][1];
+                if(dx >= 0 && dy >= 0 && dx < m && dy < n && dist[dx][dy] == -1){
+                    dist[dx][dy] = dist[x][y] + 1;
+                    q.push({dx,dy});
+                }
+            }
+        }
+        return dist;
     }
 };
