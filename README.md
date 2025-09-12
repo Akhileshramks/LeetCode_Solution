@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3447-clear-digits](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3447-clear-digits) |
 | [3451-string-compression-iii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3451-string-compression-iii) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3462-vowels-game-in-a-string](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3462-vowels-game-in-a-string) |
 | [3482-construct-string-with-minimum-cost](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3482-construct-string-with-minimum-cost) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3617-find-the-original-typed-string-i](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3617-find-the-original-typed-string-i) |
@@ -231,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2716-prime-subtraction-operation](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2716-prime-subtraction-operation) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3279-alice-and-bob-playing-flower-game) |
+| [3462-vowels-game-in-a-string](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3462-vowels-game-in-a-string) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 ## Simulation
 |  |
@@ -1391,6 +1393,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2533-bitwise-xor-of-all-pairings) |
+| [3462-vowels-game-in-a-string](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3462-vowels-game-in-a-string) |
 ## Rolling Hash
 |  |
 | ------- |
@@ -1429,4 +1432,8 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0146-lru-cache](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0146-lru-cache) |
 | [0432-all-oone-data-structure](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/0432-all-oone-data-structure) |
+## Game Theory
+|  |
+| ------- |
+| [3462-vowels-game-in-a-string](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3462-vowels-game-in-a-string) |
 <!---LeetCode Topics End-->
