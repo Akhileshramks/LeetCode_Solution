@@ -233,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2716-prime-subtraction-operation](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2716-prime-subtraction-operation) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3279-alice-and-bob-playing-flower-game) |
+| [3336-water-bottles-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3336-water-bottles-ii) |
 | [3462-vowels-game-in-a-string](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3462-vowels-game-in-a-string) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 ## Simulation
@@ -259,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2411-spiral-matrix-iv](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2411-spiral-matrix-iv) |
 | [2645-pass-the-pillow](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2645-pass-the-pillow) |
 | [2846-robot-collisions](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2846-robot-collisions) |
+| [3336-water-bottles-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3336-water-bottles-ii) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3447-clear-digits](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3447-clear-digits) |
 ## Hash Table
