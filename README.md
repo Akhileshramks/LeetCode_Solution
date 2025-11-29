@@ -235,6 +235,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3279-alice-and-bob-playing-flower-game](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3279-alice-and-bob-playing-flower-game) |
 | [3336-water-bottles-ii](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3336-water-bottles-ii) |
 | [3462-vowels-game-in-a-string](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3462-vowels-game-in-a-string) |
+| [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 ## Simulation
 |  |
@@ -582,6 +583,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3482-construct-string-with-minimum-cost](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3482-construct-string-with-minimum-cost) |
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3485-maximize-score-of-numbers-in-ranges) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3748-sort-matrix-by-diagonals](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3748-sort-matrix-by-diagonals) |
