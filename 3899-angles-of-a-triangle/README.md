@@ -1,40 +1,70 @@
-<h2><a href="https://leetcode.com/problems/angles-of-a-triangle">4266. Angles of a Triangle</a></h2><h3>Medium</h3><hr><p>You are given a positive integer array <code>sides</code> of length 3.</p>
+# 3899. Angles of a Triangle
 
-<p>Determine if there exists a triangle with <strong>positive</strong> area whose three side lengths are given by the elements of <code>sides</code>.</p>
+**Difficulty:** Medium &nbsp;|&nbsp; **Topics:** N/A &nbsp;|&nbsp; **Solved:** April 18, 2026
+**Language:** cpp &nbsp;|&nbsp; **Runtime:** 0 ms &nbsp;|&nbsp; **Memory:** 28293.0 MB
 
-<p>If such a triangle exists, return an array of three floating-point numbers representing its internal angles (in <strong>degrees</strong>), <strong>sorted</strong> in <strong>non-decreasing</strong> order. Otherwise, return an empty array.</p>
+---
 
-<p>Answers within <code>10<sup>-5</sup></code> of the actual answer will be accepted.</p>
+## Problem Summary
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+Given a positive integer array `sides` of length 3, determine if there exists a triangle with positive area whose three side lengths are given by the elements of `sides`. If such a triangle exists, return an array of three floating-point numbers representing its internal angles in degrees, sorted in non-decreasing order. Otherwise, return an empty array.
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">sides = [3,4,5]</span></p>
+## Examples
 
-<p><strong>Output:</strong> <span class="example-io">[36.86990,53.13010,90.00000]</span></p>
+* **Input:** sides = [3,4,5]
+* **Output:** [36.86990,53.13010,90.00000]
+* **Explanation:** A right-angled triangle can be formed with side lengths 3, 4, and 5, resulting in internal angles of approximately 36.869897646, 53.130102354, and 90 degrees respectively.
+* **Input:** sides = [2,4,2]
+* **Output:** []
+* **Explanation:** No triangle with positive area can be formed using side lengths 2, 4, and 2.
 
-<p><strong>Explanation:</strong></p>
+## Intuition
 
-<p>You can form a right-angled triangle with side lengths 3, 4, and 5. The internal angles of this triangle are approximately 36.869897646, 53.130102354, and 90 degrees respectively.</p>
-</div>
+The approach works by first checking if the given sides can form a valid triangle. This is done by sorting the sides and verifying that the sum of the two smallest sides is greater than the largest side (triangle inequality). If the sides are valid, we use the law of cosines to calculate each internal angle. The law of cosines states that for any triangle with sides a, b, and c, and angle A opposite side a, the following equation holds: a^2 = b^2 + c^2 - 2bc * cos(A). By rearranging this equation, we can solve for cos(A) and then use the inverse cosine function (acos) to find angle A. This process is repeated for the other two angles, and the results are sorted before being returned.
 
-<p><strong class="example">Example 2:</strong></p>
+## Approach
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">sides = [2,4,2]</span></p>
+1. Sort the sides of the triangle in non-decreasing order.
+2. Check if the sum of the two smallest sides is greater than the largest side (triangle inequality). If not, return an empty array.
+3. Use the law of cosines to calculate each internal angle of the triangle.
+4. Convert the angles from radians to degrees.
+5. Sort the angles in non-decreasing order and return the result.
 
-<p><strong>Output:</strong> <span class="example-io">[]</span></p>
+## Complexity Analysis
 
-<p><strong>Explanation:</strong></p>
+| | Complexity | Reason |
+|---|---|---|
+| **Time** | O(1) | The algorithm performs a constant number of operations, including sorting the sides, checking the triangle inequality, and calculating the internal angles. |
+| **Space** | O(1) | The algorithm uses a constant amount of space to store the sides and angles. |
 
-<p>You cannot form a triangle with positive area using side lengths 2, 4, and 2.</p>
-</div>
+## Solution
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+```cpp
+class Solution {
+public:
+    vector<double> internalAngles(vector<int>& sides) {
+        sort(sides.begin(),sides.end());
+        if(sides[0] + sides[1] <= sides[2]) return {};
+        // a^2 = b^2 + c^2 - 2bc cosA
+        // A = cos^-1(a^2 - b^2 - c^2 / 2bc)
+        int a = sides[0], b = sides[1], c = sides[2];
+        double A = ((acos((b*b + c*c - a*a)/(2.0*b*c)))/M_PI)*180;
+        double B = ((acos((a*a + c*c - b*b)/(2.0*a*c)))/M_PI)*180;
+        double C = ((acos((b*b + a*a - c*c)/(2.0*b*a)))/M_PI)*180;
+        vector<double> res = {A,B,C};
+        sort(res.begin(), res.end());
+        return res;
+    }
+};
+```
 
-<ul>
-	<li><code>sides.length == 3</code></li>
-	<li><code>1 &lt;= sides[i] &lt;= 1000</code></li>
-</ul>
+## Code Walkthrough
+
+The code first sorts the sides of the triangle using the `sort` function. It then checks if the sum of the two smallest sides is greater than the largest side by comparing `sides[0] + sides[1]` with `sides[2]`. If the sides do not form a valid triangle, an empty array is returned. Otherwise, the code calculates each internal angle using the law of cosines and the `acos` function. The angles are converted from radians to degrees by multiplying by `180 / M_PI`. Finally, the angles are sorted in non-decreasing order using the `sort` function and returned as a vector.
+
+## Key Takeaways
+
+- **Pattern:** Triangle inequality and law of cosines for calculating internal angles.
+- **Edge cases:** Invalid triangles (e.g., sides that do not satisfy the triangle inequality).
+- **Common mistake:** Forgetting to check the triangle inequality before calculating the internal angles.
+- **Related problems:** Other problems involving triangle geometry, such as calculating the area or perimeter of a triangle given its sides.
