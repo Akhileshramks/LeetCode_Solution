@@ -62,57 +62,35 @@ Return _the **minimum Hamming distance** of _`source`_ and _`target`_ after perf
 
 ## Intuition
 
-The allowed swaps create an **undirected graph** on the indices of `source`.  
-All indices that belong to the same connected component can be freely permuted, because any sequence of swaps inside the component can realize any permutation. Consequently, the only thing that matters for the Hamming distance is **how many values of `target` can be matched by the multiset of `source` values inside each component**.  
-If a `target[i]` value exists in the component’s `source` multiset, we can place it at position `i`; otherwise a mismatch is inevitable. Thus the problem reduces to:
-
-1. Find the connected components induced by `allowedSwaps`.  
-2. For each component, compare the frequency of values in `source` with those required by `target`.
-
-The Union‑Find (Disjoint Set Union, DSU) data structure gives us exactly this component decomposition in almost linear time.
-
----
+The allowed swaps connect indices into **connected components**.  
+Inside a component any permutation of its elements is achievable, because swaps can be performed repeatedly along the edges of the component.  
+Therefore the only thing that matters is **how many of each value we have in a component**.  
+If a value that appears in `target` also exists in the same component of `source`, we can place it there and avoid a mismatch.  
+The minimal Hamming distance is simply the number of positions whose required value cannot be supplied by its component.
 
 ## Approach
 
-1. **Build DSU** for `n` indices.  
-   For every pair `[a, b]` in `allowedSwaps` call `union(a, b)`.
-
-2. **Collect source frequencies per component**  
-   * Iterate `i = 0 … n‑1`  
-   * `root = find(i)`  
-   * Increment `freq[root][source[i]]`.
-
-3. **Match target values**  
-   * Initialise `answer = 0`.  
-   * Iterate `i = 0 … n‑1` again  
-   * `root = find(i)`  
-   * If `freq[root][target[i]] > 0` decrement the count (a match is possible).  
-   * Else `answer++` (this position will stay mismatched).
-
-4. Return `answer`.
-
----
+1. **Build components** – Use a Union‑Find (Disjoint Set Union) to merge every pair in `allowedSwaps`. After processing all pairs, `find(i)` returns the component identifier (root) of index `i`.
+2. **Count source values per component** – For each index `i`, increment `cnt[root(i)][source[i]]`. Here `cnt` is a map from component‑root to a frequency map of values.
+3. **Match target values** – Iterate indices again:
+   - Let `r = find(i)`.  
+   - If `cnt[r]` contains `target[i]` with positive count, decrement the count (we can place that value inside the component).  
+   - Otherwise this position is forced to differ → increment the answer.
+4. Return the accumulated answer.
 
 ## Complexity Analysis
 
 |                | Complexity | Reason                                                                 |
 |----------------|------------|------------------------------------------------------------------------|
-| **Time**       | $O(n \,\alpha(n) + m \,\alpha(n)) = O(n + m)$ | DSU operations are amortised $O(\alpha(n))$; two linear scans over the arrays. |
-| **Space**      | $O(n)$ | `parent`, `size` arrays of DSU and the frequency map storing at most one entry per index. |
-
-($\alpha$ is the inverse Ackermann function, practically constant.)
-
----
+| **Time**       | $O(n \,\alpha(n) + m \,\alpha(n)) = O(n+m)$ | Union‑Find operations are amortized $α(n)$; we traverse the arrays once. |
+| **Space**      | $O(n)$     | Parent/size arrays of DSU plus the frequency maps (total entries ≤ $n$). |
 
 ## Key Takeaways
 
-- **Component‑wise freedom**: Any set of allowed swaps partitions indices into components where values can be arbitrarily rearranged; the global optimum is the sum of optimal local matches.
-- **Frequency matching** instead of explicit permutation: Counting how many required values exist in each component yields the minimal Hamming distance without constructing the actual permutation.
-- **DSU as a bridge** between graph constraints and array manipulation: Union‑Find converts the swap list into component identifiers in near‑linear time.
-- **Space‑efficient counting**: A hash map per component (`unordered_map<int,int>`) stores only values that actually appear, keeping memory proportional to `n`.
-
----
+- **Swap graph → DSU**: Converting arbitrary swap constraints into connected components lets us treat each component as a fully reorderable bag.
+- **Frequency matching**: Reducing the problem to “can we supply each target value from its component?” avoids explicit permutations.
+- **Path compression + union by size** guarantees near‑linear time even for $10^5$ edges.
+- **Map of maps** is sufficient because the total number of stored key‑value pairs never exceeds `n`; alternative representations (e.g., `vector<unordered_map>`) are interchangeable.
 
 ## My Original Solution
 
@@ -170,33 +148,23 @@ public:
 ## Professional Refactor
 
 ```cpp
-// 1722. Minimize Hamming Distance After Swap Operations
-// ----------------------------------------------------
-// Union‑Find (DSU) + per‑component frequency counting
+// language: cpp
 class DSU {
+    vector<int> parent, sz;
 public:
     DSU(int n) : parent(n), sz(n, 1) {
         iota(parent.begin(), parent.end(), 0);
     }
-
-    // Find with path compression
     int find(int x) {
         return parent[x] == x ? x : parent[x] = find(parent[x]);
     }
-
-    // Union by size
     void unite(int a, int b) {
-        a = find(a);
-        b = find(b);
+        a = find(a); b = find(b);
         if (a == b) return;
         if (sz[a] < sz[b]) swap(a, b);
         parent[b] = a;
         sz[a] += sz[b];
     }
-
-private:
-    vector<int> parent;
-    vector<int> sz;
 };
 
 class Solution {
@@ -204,30 +172,25 @@ public:
     int minimumHammingDistance(vector<int>& source,
                                vector<int>& target,
                                vector<vector<int>>& allowedSwaps) {
-        const int n = source.size();
+        int n = source.size();
         DSU dsu(n);
+        for (const auto& p : allowedSwaps) dsu.unite(p[0], p[1]);
 
-        // 1️⃣ Build connectivity
-        for (const auto& p : allowedSwaps) {
-            dsu.unite(p[0], p[1]);
-        }
-
-        // 2️⃣ Frequency of source values inside each component
-        unordered_map<int, unordered_map<int, int>> compFreq;
+        // component → value → frequency
+        unordered_map<int, unordered_map<int, int>> compCnt;
         for (int i = 0; i < n; ++i) {
-            int root = dsu.find(i);
-            ++compFreq[root][source[i]];
+            int r = dsu.find(i);
+            ++compCnt[r][source[i]];
         }
 
-        // 3️⃣ Try to satisfy target values
         int mismatches = 0;
         for (int i = 0; i < n; ++i) {
-            int root = dsu.find(i);
-            auto& freq = compFreq[root];
+            int r = dsu.find(i);
+            auto& freq = compCnt[r];
             if (freq[target[i]] > 0) {
-                --freq[target[i]];          // a match is possible
+                --freq[target[i]];
             } else {
-                ++mismatches;               // unavoidable mismatch
+                ++mismatches;
             }
         }
         return mismatches;
@@ -237,11 +200,9 @@ public:
 
 ## Code Walkthrough
 
-- **DSU construction** (`DSU dsu(n)`): `parent[i] = i` and `sz[i] = 1`.  
-- **`unite`** merges two indices; union‑by‑size keeps the tree shallow, guaranteeing amortised $O(\alpha(n))$ per operation.  
-- **`compFreq`**: a hash map keyed by the component root. The inner map stores how many times each value appears in `source` for that component.  
-- **First loop (`i = 0 … n‑1`)** populates `compFreq`.  
-- **Second loop** processes `target`. For the current index `i`, we look up the root component.  
-  - If `freq[target[i]]` is positive, we consume one occurrence (the value can be moved to position `i`).  
-  - Otherwise we increment `mismatches`, because no element in this component can satisfy `target[i]`.  
-- The final `mismatches` count is the minimal possible Hamming distance.
+- **DSU constructor** initializes `parent[i] = i` and `sz[i] = 1`. `iota` fills the parent array in linear time.
+- **find** uses path compression: `parent[x] = find(parent[x])` collapses the tree, guaranteeing amortized $α(n)$ per call.
+- **unite** merges two roots, always attaching the smaller tree under the larger (`sz`), which keeps the depth shallow.
+- **Building `compCnt`**: for each index we locate its root `r` and increment the frequency of `source[i]` inside `compCnt[r]`. This creates a multiset of values that can be freely rearranged within the component.
+- **Matching phase**: for each index we again locate its component. If `target[i]` exists in the component’s multiset (`freq[target[i]] > 0`), we consume one occurrence (`--freq`). Otherwise the value cannot be supplied → we count a mismatch.
+- The final `mismatches` is the minimal Hamming distance after any sequence of allowed swaps.
