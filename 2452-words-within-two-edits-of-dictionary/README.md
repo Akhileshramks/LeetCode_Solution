@@ -53,43 +53,37 @@ Return_ a list of all words from _`queries`_, __that match with some word from _
 
 ## Intuition
 
-The “aha!” moment is to **search the dictionary as a prefix tree (Trie) while simultaneously counting mismatches**.  
-Because every word has the same length, we can walk character‑by‑character down the Trie.  
-Whenever the current character differs from the query’s character we consume one edit.  
-If the edit count ever exceeds 2 we prune that branch immediately.  
-Thus we never have to generate all possible edited strings; the Trie itself discards impossible paths, giving us an implicit “edit‑distance‑≤ 2” check in linear time per query.
+The crucial observation is that we only need to know **whether** a dictionary word can be reached within two character changes, not *how* to transform it.  
+A Trie stores all dictionary words sharing common prefixes in a single tree. While walking down the Trie we can keep a running edit count; as soon as the count exceeds 2 we prune the whole subtree because any continuation would need even more edits.  
+Thus the problem reduces to a bounded‑depth search on the Trie, where the bound is the edit budget (2). This turns the naïve $O(|queries|\cdot|dictionary|\cdot n)$ comparison into a prefix‑aware search that stops early for mismatching branches.
 
 ## Approach
 
 1. **Build a Trie** from all words in `dictionary`.  
-   Each node stores 26 child pointers and a boolean `isEnd`.
-
-2. **Depth‑first search** (`dfs`) for a single query:  
-   * Parameters – current index `i`, accumulated edit count `cnt`, current Trie node.  
-   * If `cnt > 2` → return `false` (prune).  
-   * If `i == word length` → return `node->isEnd` (exact match reached).  
-   * For every existing child `c` (0 … 25):  
-     * If `c` equals the query’s character → recurse with same `cnt`.  
-     * Else → recurse with `cnt + 1`.  
-   * Short‑circuit as soon as any recursive call returns `true`.
-
-3. Iterate over `queries`; keep a query if `dfs(query, 0, 0, root)` returns `true`.
+2. For each `query` word, invoke a depth‑first search (`dfs`) on the Trie:  
+   - Parameters: current index `pos` in the query, current node, and the number of edits used so far.  
+   - **Prune** if `edits > 2`.  
+   - If the node marks the end of a dictionary word, we have found a match (return `true`).  
+   - Otherwise, iterate over all existing child edges (`'a'`‑`'z'`).  
+     * If the child character equals `query[pos]`, recurse without increasing `edits`.  
+     * If it differs, recurse with `edits+1`.  
+3. If any recursion returns `true`, the query word is added to the answer list.  
+4. Return the collected words preserving the original order of `queries`.
 
 ## Complexity Analysis
 
-|                | Complexity                              | Reason                                                                                     |
-|----------------|----------------------------------------|--------------------------------------------------------------------------------------------|
-| **Time**       | $O(d \cdot n + q \cdot 26^{2} \cdot n)$ | Building the Trie: $d$ words × length $n$. <br>For each query we explore at most 2 mismatches → at most $\binom{n}{0}25^{0} + \binom{n}{1}25^{1} + \binom{n}{2}25^{2} = O(26^{2}\,n)$ nodes. |
-| **Space**      | $O(d \cdot n)$                         | One Trie node per character of every dictionary word.                                      |
-
-*Here $d = |\text{dictionary}|$, $q = |\text{queries}|$, $n =$ word length (all equal).*
+|                | Complexity                               | Reason                                                                                     |
+|----------------|------------------------------------------|--------------------------------------------------------------------------------------------|
+| **Time**       | $O(q \cdot n \cdot 26^{\,2}) = O(qn)$    | For each of the $q$ queries we traverse at most $n$ positions; at most two mismatches allow exploring up to $26$ alternatives per mismatch, giving a constant factor $26^2$. |
+| **Space**      | $O(m \cdot n)$                           | The Trie stores every dictionary character once; $m$ is the number of dictionary words, each of length $n$. |
+| **Auxiliary**  | $O(n)$                                   | Recursion depth is bounded by the word length $n$.                                         |
 
 ## Key Takeaways
 
-- **Trie + bounded edit count** replaces the naïve “generate all 2‑edit variants” (which would be $O(25^{2} n)$ per query) with a single guided walk that stops early.
-- **Pruning on edit budget** (`cnt > 2`) is crucial; without it the DFS would explode to $26^{n}$.
-- Checking `node->isEnd` **before** recursing further allows early acceptance when the remaining suffix matches exactly, saving work for long words.
-- Using **short‑circuit logical OR** (`if (found) break;`) prevents unnecessary recursion once a valid path is discovered.
+- **Trie‑guided pruning**: By storing the dictionary in a Trie we can abort entire sub‑trees once the edit budget is exceeded, dramatically cutting the search space.  
+- **Edit budget as a DFS state**: Carrying the current edit count through recursion lets us enforce the “≤ 2 edits” constraint without extra DP tables.  
+- **Early acceptance**: As soon as a Trie node marked `isEnd` is reached, we can stop exploring deeper characters—even if the remaining suffix differs—because the word lengths are equal.  
+- **Constant‑factor bound**: With a maximum of two edits, the branching factor is limited to $26$ per mismatch, turning an exponential‑looking search into a linear‑time check per query.
 
 ## My Original Solution
 
@@ -158,7 +152,7 @@ public:
 ## Professional Refactor
 
 ```cpp
-```cpp
+// Language: C++
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -167,47 +161,43 @@ public:
     array<TrieNode*, 26> child{};
     bool isEnd = false;
 
-    TrieNode() {
-        child.fill(nullptr);
-    }
+    TrieNode() { child.fill(nullptr); }
 };
 
 class Trie {
     TrieNode* root = new TrieNode();
 
-    // Recursive helper that returns true if a word in the trie can be matched
-    // with at most `maxEdits` mismatches.
-    bool dfs(const string& word, int pos, int edits,
-             TrieNode* node, int maxEdits) const {
-        if (edits > maxEdits) return false;          // budget exceeded
-        if (pos == (int)word.size()) return node->isEnd; // reached end of word
+    // Depth‑first search with edit budget.
+    bool dfs(const string& word, int pos, int edits, TrieNode* node, int limit) const {
+        if (edits > limit) return false;               // budget exceeded
+        if (node->isEnd) return true;                  // reached a dictionary word
+        if (pos == (int)word.size()) return false;     // reached end without match
 
         int cur = word[pos] - 'a';
         for (int c = 0; c < 26; ++c) {
             TrieNode* nxt = node->child[c];
             if (!nxt) continue;
-            // If characters match, keep the same edit count; otherwise consume one.
-            if (dfs(word, pos + 1, edits + (c != cur), nxt, maxEdits))
-                return true;                         // early exit on success
+            // Same character → no extra edit, else +1 edit.
+            if (dfs(word, pos + 1, edits + (c != cur), nxt, limit))
+                return true;                           // early exit on first success
         }
         return false;
     }
 
 public:
-    // Insert a dictionary word into the trie.
-    void insert(const string& word) {
-        TrieNode* cur = root;
-        for (char ch : word) {
+    void insert(const string& s) {
+        TrieNode* node = root;
+        for (char ch : s) {
             int idx = ch - 'a';
-            if (!cur->child[idx]) cur->child[idx] = new TrieNode();
-            cur = cur->child[idx];
+            if (!node->child[idx]) node->child[idx] = new TrieNode();
+            node = node->child[idx];
         }
-        cur->isEnd = true;
+        node->isEnd = true;
     }
 
-    // Public wrapper for the bounded‑edit DFS.
-    bool matchesWithinEdits(const string& word, int maxEdits) const {
-        return dfs(word, 0, 0, root, maxEdits);
+    // Public wrapper: can we match `s` within `maxEdits`?
+    bool canMatch(const string& s, int maxEdits) const {
+        return dfs(s, 0, 0, root, maxEdits);
     }
 };
 
@@ -219,22 +209,21 @@ public:
         for (const string& w : dictionary) trie.insert(w);
 
         vector<string> ans;
+        ans.reserve(queries.size());
         for (const string& q : queries) {
-            if (trie.matchesWithinEdits(q, 2))
-                ans.push_back(q);
+            if (trie.canMatch(q, 2)) ans.push_back(q);
         }
         return ans;
     }
 };
 ```
-```
 
 ## Code Walkthrough
 
-- **Trie construction (`insert`)** – walks the characters of a dictionary word, creating missing nodes on‑the‑fly; marks the terminal node with `isEnd = true`.
-- **`dfs` signature** – `pos` is the current index in the query, `edits` the number of mismatches so far, `node` the current Trie node, `maxEdits` the allowed budget (2).  
-  The base cases handle budget overflow and reaching the end of the word.
-- **Branching loop** – iterates only over existing children (`if (!nxt) continue;`).  
-  The expression `edits + (c != cur)` succinctly adds one edit when the letters differ.
-- **Early termination** – as soon as a recursive call returns `true`, the function returns `true` without exploring remaining branches, dramatically cutting work for successful matches.
-- **Public query check (`matchesWithinEdits`)** – hides the recursion details; the `Solution` class simply calls it for each query and collects the passing ones.
+- **Trie construction (`insert`)** – creates a path for every dictionary word; `isEnd` flags complete words.  
+- **`dfs` signature** – `pos` (current index in the query), `edits` (edits used so far), `node` (current Trie node), `limit` (fixed to 2).  
+- **Pruning** – `if (edits > limit) return false;` cuts off any branch that already needs more than two changes.  
+- **Early success** – as soon as `node->isEnd` is true we return `true`; the remaining suffix can be ignored because all words share the same length.  
+- **Branch exploration** – iterate over the 26 possible children. The expression `edits + (c != cur)` adds an edit only when the character differs, keeping the edit count accurate without extra conditionals.  
+- **Early return inside the loop** – the first successful child terminates the search, preventing unnecessary work.  
+- **`canMatch` wrapper** – hides recursion details from the caller; the outer loop in `twoEditWords` simply checks each query against the Trie with the fixed budget of 2.
