@@ -1,35 +1,32 @@
 class Solution {
 public:
-    int coinchange(int ind,int amount,vector<int>& coins){
-        if(ind==0){
-            return amount%coins[0]==0;
-        }
-        //if(amount==0) return 1;
-        int nottake = coinchange(ind-1,amount,coins);
+    int countPossible(vector<int> coins, int ind, int amount, vector<vector<int>>& dp){
+        if(ind == 0) return amount % coins[ind] == 0;
+        if(ind < 0) return 0;
+        if(dp[ind][amount] != -1) return dp[ind][amount];
+        int notTake = countPossible(coins, ind - 1, amount, dp);
         int take = 0;
-        if(coins[ind]<=amount){
-            take = coinchange(ind,amount-coins[ind],coins);
+        if(coins[ind] <= amount){
+            take = countPossible(coins, ind, amount - coins[ind], dp);
         }
-        return take+nottake;
+        return dp[ind][amount] = take + notTake;
     }
-    int change(int amt, vector<int>& coins) {
+    int change(int amount, vector<int>& coins) {
         int n = coins.size();
-        //return coinchange(n-1,amount,coins);
-        vector<int> prev(amt+1,0);
-        for(int i =0;i<=amt;i++)
-            prev[i] = i%coins[0]==0 ;
-        for(int ind=1;ind<n;ind++){
-            vector<int> curr(amt+1,0);
-            for(int amount = 0;amount<=amt;amount++){
-                int nottake = prev[amount];
+        vector<long long> prev(amount+1, 0);
+        for(int i = 0;i <= amount;i++) prev[i] = (i % coins[0] == 0);
+        for(int ind = 1;ind < n;ind++){
+            vector<long long> curr(amount+1, 0);
+            for(int remaining = 0; remaining <= amount;remaining++){
+                int notTake = prev[remaining];
                 int take = 0;
-                if(coins[ind]<=amount){
-                    take = curr[amount-coins[ind]];
+                if(coins[ind] <= remaining){
+                    take = (curr[remaining - coins[ind]]);
                 }
-                curr[amount] = take+nottake;
+                curr[remaining] = (1ll*take + notTake);
             }
             prev = curr;
         }
-        return prev[amt];
+        return prev[amount];
     }
 };
