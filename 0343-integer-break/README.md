@@ -1,7 +1,7 @@
 # 343. Integer Break
 
 **Difficulty:** Medium &nbsp;|&nbsp; **Topics:** Math, Dynamic Programming &nbsp;|&nbsp; **Solved:** April 25, 2026
-**Language:** cpp &nbsp;|&nbsp; **Runtime:** 3 ms &nbsp;|&nbsp; **Memory:** 9.7 MB
+**Language:** cpp &nbsp;|&nbsp; **Runtime:** 0 ms &nbsp;|&nbsp; **Memory:** 8.5 MB
 
 ---
 
@@ -38,62 +38,49 @@ Return _the maximum product you can get_.
 
 ## Intuition
 
-The product is maximized when the summands are as **close to $e$** as possible.  
-Because we must use *integers*, the optimal integer close to $e$ is **$3$**.  
-Thus we should split $n$ into as many $3$’s as we can.  
-The only exception is when the remainder after extracting $3$’s is **$1$** – a factor $1$ never helps, so we replace one $3+1$ by **$2+2$**.  
-This greedy choice is provably optimal by the inequality $3\cdot (x-3) \ge x$ for all $x\ge5$.
+The product is maximized when each summand is as close to $e\approx2.718$ as possible.  
+For integers this translates to using as many $3$’s as we can; a leftover $2$ (or $4=2+2$) is better than a leftover $1$.  
+Dynamic programming captures exactly this “break‑or‑keep” choice: for each $i$ we decide whether to keep a part $j$ as is (`j * (i‑j)`) or to break the remainder further (`j * dp[i‑j]`). The optimal product for $i$ is the maximum over all $j$.
 
 ## Approach
 
-1. **Handle small $n$ directly**  
-   * $n=2 \rightarrow 1$ (only $1+1$)  
-   * $n=3 \rightarrow 2$ (best split $1+2$)  
-
-2. **Greedy extraction of 3’s**  
-   * While $n > 4$, multiply answer by $3$ and set $n \leftarrow n-3$.  
-   * The loop stops when the remaining $n$ is $2$, $3$, or $4$ – all of which should be taken as a whole (no further split improves the product).
-
-3. **Multiply the leftover**  
-   * Return `ans * n`.
+1. Create a DP array `dp` where `dp[i]` stores the maximum product obtainable by breaking integer $i$ (with at least two parts).  
+2. Initialise `dp[1] = 1` (base case for recursion).  
+3. Iterate `i` from $2$ to $n$:  
+   - For each possible first part `j` (`1 ≤ j < i`), compute two candidates:  
+     * `j * (i‑j)` – keep the remainder as a single piece.  
+     * `j * dp[i‑j]` – break the remainder further using the already‑computed optimum.  
+   - Update `dp[i]` with the larger of the current value and the two candidates.  
+4. Return `dp[n]`.
 
 ## Complexity Analysis
 
-|            | Complexity | Reason                                   |
-|------------|------------|------------------------------------------|
-| **Time**   | $O(n)$ ≈ $O(1)$ | Each iteration reduces $n$ by $3$; at most $n/3$ steps. |
-| **Space**  | $O(1)$     | Only a few scalar variables are used.   |
+|               | Complexity | Reason                                                                      |
+|---------------|------------|-----------------------------------------------------------------------------|
+| **Time**      | $O(n^2)$   | Double loop: outer $i$ runs $n$ times, inner $j$ runs up to $i‑1$ times. |
+| **Space**     | $O(n)$     | One DP array of length $n+1$.                                                |
 
 ## Key Takeaways
 
-- **Maximum‑product split = many 3’s** – the integer closest to $e$ yields the highest multiplicative gain.  
-- **Remainder $1$ is fatal**; convert a trailing `3+1` into `2+2` to avoid a factor of $1$.  
-- **Greedy proof via local optimality**: replacing any part $x\ge5$ by $3+(x-3)$ never decreases the product, guaranteeing global optimality.  
-- **DP is overkill** for this problem; a constant‑time greedy solution is both simpler and faster.
+- **Break‑or‑keep recurrence**: `dp[i] = max_{1≤j<i} ( max(j * (i‑j), j * dp[i‑j]) )` cleanly encodes the decision to stop breaking or continue recursively.  
+- **Implicit greedy insight**: The DP naturally discovers the optimal “use as many $3$’s as possible” pattern without hard‑coding it.  
+- **Base case nuance**: Setting `dp[1]=1` (instead of $0$) allows the recurrence to correctly handle the smallest breakable piece.  
+- **Small constraints, quadratic DP**: With $n ≤ 58$, $O(n^2)$ is trivial, but the same recurrence scales to larger $n$ if needed.
 
 ## My Original Solution
 
 ```cpp
 class Solution {
 public:
-    int findMaxProduct(vector<int>& nums, int ind, int target,vector<vector<int>> &dp){
-        if(target == 0) return 1;
-        if(ind  == 0) return target % nums[ind] == 0 ? (int)pow(nums[ind], target / nums[ind]) : 0;
-        if(ind < 0) return 0;
-        if(dp[ind][target] != -1) return dp[ind][target];
-        int notTake = findMaxProduct(nums, ind-1, target, dp);
-        int take = 0;
-        if(nums[ind] <= target){
-            take = findMaxProduct(nums, ind, target-nums[ind], dp);
-        }
-        take *= nums[ind];
-        return dp[ind][target] = max(take, notTake);
-    }
     int integerBreak(int n) {
-        vector<int> nums;
-        vector<vector<int>> dp(n, vector<int>(n+1, -1));
-        for(int i = 1;i < n;i++) nums.push_back(i);
-        return findMaxProduct(nums, n-2, n, dp);
+        vector<int> dp(n+1, 0);
+        dp[1] = 1;
+        for(int i = 2;i <= n;i++){
+            for(int j = 1;j < i;j++){
+                dp[i] = max(dp[i], max(dp[i-j] * j, j * (i-j)));
+            }
+        }
+        return dp[n];
     }
 };
 ```
@@ -104,26 +91,33 @@ public:
 class Solution {
 public:
     int integerBreak(int n) {
-        // Base cases: we must break the number into at least two parts.
-        if (n == 2) return 1;          // 1 + 1
-        if (n == 3) return 2;          // 1 + 2
+        // dp[i] = maximum product for integer i (must be split into at least two parts)
+        vector<int> dp(n + 1, 0);
+        dp[1] = 1;                     // base case: 1 can only be "1 * 1"
 
-        int product = 1;
-        // Extract as many 3's as possible while keeping n > 4.
-        while (n > 4) {
-            product *= 3;
-            n -= 3;
+        for (int i = 2; i <= n; ++i) {
+            for (int j = 1; j < i; ++j) {
+                // Option 1: keep (i - j) as a whole number
+                int keep = j * (i - j);
+                // Option 2: further break (i - j) using previously computed optimum
+                int breakFurther = j * dp[i - j];
+                dp[i] = max(dp[i], max(keep, breakFurther));
+            }
         }
-        // The remaining n (2, 3, or 4) is multiplied directly.
-        product *= n;
-        return product;
+        return dp[n];
     }
 };
 ```
 
 ## Code Walkthrough
 
-- **Base handling (`n == 2` / `n == 3`)** – the problem forces at least two summands, so we cannot return `n` itself.
-- **Greedy loop** – each iteration replaces a segment `x ≥ 5` by `3 + (x‑3)`.  
-  The product change is `3·(x‑3) ≥ x`, guaranteeing we never worsen the answer.
-- **Termination condition (`n <= 4`)** – at this point any further split would introduce a factor `1` or reduce the product, so we safely multiply the leftover `n` in one go.
+- **DP definition**: `dp[i]` stores the best product achievable by splitting `i` into **at least two** positive integers.  
+- **Inner update**:  
+  ```cpp
+  int keep = j * (i - j);          // no further split of the remainder
+  int breakFurther = j * dp[i - j]; // recurse on the remainder
+  dp[i] = max(dp[i], max(keep, breakFurther));
+  ```  
+  This line embodies the core “break‑or‑keep” decision.  
+- **Loop bounds**: `j` runs from `1` to `i‑1` to ensure both parts are positive; the outer loop builds solutions bottom‑up so `dp[i‑j]` is already known.  
+- **Return**: After filling the table, `dp[n]` holds the answer for the original integer.
