@@ -573,6 +573,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2846-robot-collisions](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2846-robot-collisions) |
 | [2854-decremental-string-concatenation](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2854-decremental-string-concatenation) |
+| [3225-maximum-score-from-grid-operations](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3225-maximum-score-from-grid-operations) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
@@ -653,6 +654,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2055-describe-the-painting](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2055-describe-the-painting) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
+| [3225-maximum-score-from-grid-operations](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3225-maximum-score-from-grid-operations) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Database
 |  |
@@ -815,6 +817,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2755-extra-characters-in-a-string](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2755-extra-characters-in-a-string) |
 | [2854-decremental-string-concatenation](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2854-decremental-string-concatenation) |
+| [3225-maximum-score-from-grid-operations](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3225-maximum-score-from-grid-operations) |
 | [3482-construct-string-with-minimum-cost](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3482-construct-string-with-minimum-cost) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 ## Queue
@@ -1259,6 +1262,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2472-build-a-matrix-with-conditions](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2472-build-a-matrix-with-conditions) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/2764-maximum-number-of-fish-in-a-grid) |
+| [3225-maximum-score-from-grid-operations](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3225-maximum-score-from-grid-operations) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3748-sort-matrix-by-diagonals](https://github.com/Akhileshramks/LeetCode_Solution/tree/master/3748-sort-matrix-by-diagonals) |
 ## Quickselect
