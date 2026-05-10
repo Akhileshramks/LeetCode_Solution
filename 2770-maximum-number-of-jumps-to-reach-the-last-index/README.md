@@ -1,7 +1,7 @@
 # 2770. Maximum Number of Jumps to Reach the Last Index
 
 **Difficulty:** Medium &nbsp;|&nbsp; **Topics:** Array, Dynamic Programming &nbsp;|&nbsp; **Solved:** May 10, 2026
-**Language:** cpp &nbsp;|&nbsp; **Runtime:** 95 ms &nbsp;|&nbsp; **Memory:** 136.6 MB
+**Language:** cpp &nbsp;|&nbsp; **Runtime:** 117 ms &nbsp;|&nbsp; **Memory:** 133.5 MB
 
 ---
 
@@ -68,38 +68,35 @@ If there is no way to reach index `n - 1`, return `-1`.
 
 ## Intuition
 
-The jump condition creates a **directed acyclic graph (DAG)**: every valid jump goes from a smaller index $i$ to a larger index $j$, so cycles are impossible.  
-Finding the maximum number of jumps from index 0 to index $n\!-\!1$ is therefore exactly the problem of finding the **longest path** in this DAG.  
-Because $n\le 1000$, we can afford the $O(n^2)$ edge enumeration and apply a simple DP that propagates the best length forward.
+The jump condition only depends on the **previous index** and the **current index**.  
+Because every jump must move forward (`i < j`), the indices form a **directed acyclic graph** where an edge `i → j` exists iff `|nums[j]‑nums[i]| ≤ target`.  
+The problem therefore reduces to finding the **longest path** from vertex 0 to vertex $n‑1$ in this DAG.  
+Since the graph is already topologically ordered by the index, a simple DP that records the best reachable jump count for each index suffices.
 
 ## Approach
 
-1. **Initialize DP** – `dp[i]` stores the maximum number of jumps needed to reach index $i$ from index 0.  
-   Set `dp[0]=0` and all other entries to a large negative sentinel (unreachable).
-
-2. **Enumerate edges** – For each source index `i` (from 0 to $n‑2`), iterate all possible destinations `j>i`.  
-   If `|nums[j]‑nums[i]| ≤ target`, the jump `i→j` is allowed.
-
-3. **Relax DP** – When an allowed jump is found, update  
-   `dp[j] = max(dp[j], dp[i] + 1)`.  
-   This propagates the longest‑so‑far path to `j`.
-
-4. **Result** – After processing all pairs, `dp[n‑1]` holds the maximum jumps to the last index.  
-   If it is still the negative sentinel, return `-1`; otherwise return `dp[n‑1]`.
+1. Create an array `dp` where `dp[i]` stores the maximum number of jumps needed to reach index `i`.  
+   Initialise `dp[0] = 0` (no jump needed to stay at the start) and all other entries to a very negative value (unreachable sentinel).  
+2. Iterate `i` from `1` to `n‑1`.  
+   For each `i`, scan all previous indices `j < i`.  
+   If `|nums[i] - nums[j]| ≤ target` **and** `dp[j]` is reachable, update  
+   `dp[i] = max(dp[i], dp[j] + 1)`.  
+3. After processing, `dp[n‑1]` holds the maximum jump count to the last index.  
+   If it is still negative, return `-1`; otherwise return `dp[n‑1]`.
 
 ## Complexity Analysis
 
-|                | Complexity | Reason |
-|----------------|------------|--------|
-| **Time**       | $O(n^2)$   | Two nested loops over all index pairs $(i,j)$ with $i<j$. |
-| **Space**      | $O(n)$     | One DP array of length $n$ (the recursion stack in the original solution is eliminated). |
+|                | Complexity | Reason                                                                      |
+|----------------|------------|-----------------------------------------------------------------------------|
+| **Time**       | $O(n^2)$   | Double loop over all pairs `(j,i)` with `j < i`, $n ≤ 1000$ makes it feasible |
+| **Space**      | $O(n)$     | One DP array of length `n`                                                   |
 
 ## Key Takeaways
 
-- **Longest path in a DAG** can be solved by a straightforward DP when the graph is dense but $n$ is modest ($\le 10^3$).  
-- Converting the jump rule into an edge predicate (`|nums[j]‑nums[i]| ≤ target`) yields a clean, index‑ordered graph, guaranteeing acyclicity.  
-- Using a **negative sentinel** (e.g., $-10^9$) distinguishes unreachable states without extra boolean arrays.  
-- A **forward DP** (propagating from start to end) is usually clearer and less error‑prone than a backward recursive formulation with two parameters.
+- **Longest path in a forward‑only graph**: When moves are only to larger indices, the graph is automatically topologically sorted, allowing a single forward DP pass.  
+- **Unreachable sentinel**: Using a large negative constant (e.g., `-1e9`) cleanly distinguishes reachable states from impossible ones without extra boolean arrays.  
+- **Quadratic DP is optimal for $n ≤ 1000$**: The $O(n^2)$ solution comfortably fits the constraints; for larger `n` one would need range‑query structures (segment tree / BIT) keyed by `nums` values.  
+- **Absolute‑difference condition**: The edge existence test `|nums[i] - nums[j]| ≤ target` is constant‑time, so the DP transition remains simple and fast.
 
 ## My Original Solution
 
@@ -118,9 +115,22 @@ public:
     }
     int maximumJumps(vector<int>& nums, int target) {
         int n = nums.size();
-        vector<vector<int>> dp(n, vector<int>(n+1, -1));
-        int res = findMaxJump(nums, n - 2, n - 1, dp, target);
-        return res <  0 ? -1 : res;
+        vector<int> prevDp(n, INT_MIN);
+        int res = -1;
+        prevDp[0] = 0;
+        for(int ind = 0;ind <= n - 2;ind++){
+            vector<int> currDp(n, INT_MIN);
+            for(int prev = 0;prev <= n - 1;prev++){
+                int notTake = 0 + prevDp[prev];
+                int take = -1e9;
+                if(abs(nums[ind] - nums[prev]) <= target){
+                    take = 1 + prevDp[ind];
+                }
+                currDp[prev] = max(take, notTake);
+            }
+            prevDp = currDp;
+        }
+        return max(res, prevDp[n-1]);
     }
 };
 ```
@@ -128,33 +138,34 @@ public:
 ## Professional Refactor
 
 ```cpp
+// 2770. Maximum Number of Jumps to Reach the Last Index
+// O(n^2) time, O(n) space
 class Solution {
 public:
     int maximumJumps(vector<int>& nums, int target) {
-        const int NEG_INF = -1e9;               // sentinel for unreachable
+        const int INF_NEG = -1e9;                 // sentinel for unreachable
         int n = nums.size();
-        vector<int> dp(n, NEG_INF);
-        dp[0] = 0;                               // start at index 0
+        vector<int> dp(n, INF_NEG);
+        dp[0] = 0;                                // start position
 
-        // forward DP over all ordered pairs (i, j)
-        for (int i = 0; i < n; ++i) {
-            if (dp[i] == NEG_INF) continue;     // cannot reach i, skip
-            for (int j = i + 1; j < n; ++j) {
-                if (abs(nums[j] - nums[i]) <= target) {
-                    dp[j] = max(dp[j], dp[i] + 1);
+        for (int i = 1; i < n; ++i) {
+            for (int j = 0; j < i; ++j) {
+                if (abs(nums[i] - nums[j]) <= target && dp[j] != INF_NEG) {
+                    dp[i] = max(dp[i], dp[j] + 1);   // take jump j → i
                 }
             }
         }
-
-        return dp[n - 1] == NEG_INF ? -1 : dp[n - 1];
+        return dp[n - 1] == INF_NEG ? -1 : dp[n - 1];
     }
 };
 ```
 
 ## Code Walkthrough
 
-- **`dp` initialization** – `dp[0]=0` because we start there with zero jumps; all other entries are set to `NEG_INF` to mark them unreachable.
-- **Outer loop (`i`)** – Processes indices in increasing order, guaranteeing that when we relax edges from `i`, `dp[i]` already holds the longest path to `i`.
-- **Inner loop (`j`)** – Checks the jump feasibility `|nums[j]‑nums[i]| ≤ target`. If true, we can extend any optimal path to `i` by one more jump, hence `dp[j] = max(dp[j], dp[i] + 1)`.
-- **Early skip** – `if (dp[i] == NEG_INF) continue;` avoids unnecessary work for indices that cannot be reached.
-- **Result extraction** – After all relaxations, `dp[n‑1]` contains the answer; if it stayed `NEG_INF`, no valid sequence exists, so we return `-1`.
+- **Line 5‑6**: Define a large negative constant `INF_NEG` to represent an unreachable state.  
+- **Line 9**: `dp[0] = 0` because we start at index 0 with zero jumps.  
+- **Lines 11‑15**: For each target index `i`, examine all earlier indices `j`.  
+  - The condition `abs(nums[i] - nums[j]) <= target` checks the jump feasibility.  
+  - `dp[j] != INF_NEG` guarantees that `j` is reachable.  
+  - `dp[i] = max(dp[i], dp[j] + 1)` records the best (maximum) jump count arriving at `i`.  
+- **Line 18**: If `dp[n‑1]` stayed negative, the last index is unreachable → return `-1`; otherwise return the stored maximum.
